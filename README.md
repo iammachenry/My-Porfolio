@@ -84,7 +84,7 @@
 ### Your Journey
 - **Overcame personal challenges** including depression to build this expertise
 - **Deep empathy** for operational challenges teams face daily
-- **7+ years customer-facing experience** across eCommerce, tech, and retail
+- **2+ years in Salesforce, 7+ years in CX** across eCommerce, tech, and retail
 - **Unique insight** into user behavior and operational pain points
 
 ### Results You Drive
@@ -106,7 +106,7 @@
 - User Enablement & Training
 
 **Certifications**: 6 Active Salesforce Certifications  
-**Experience**: 7+ Years Customer Experience  
+**Experience**: 2+ Years in Salesforce | 7+ Years in Customer Experience  
 **Industries**: eCommerce, Technology, Retail, Nonprofits
 
 ## Recent Success
@@ -232,9 +232,10 @@ webapp/
 
 ## Performance Metrics Highlighted
 - 🎖️ **6X Salesforce Certified** Professional
-- 👥 **7+ years** Customer Experience expertise
+- ⚡ **2+ years** in Salesforce
+- 👥 **7+ years** in Customer Experience
 - 📈 **Up to 40%** efficiency increase potential
-- ⚡ **Hours saved** weekly through automation
+- ⏱️ **Hours saved** weekly through automation
 - 🎯 **Successful** Africa Ohana implementation
 - 💚 **Light green** professional theme
 
