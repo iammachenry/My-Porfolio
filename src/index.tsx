@@ -593,7 +593,9 @@ app.get('/', (c) => {
                             
                             <div class="bg-white rounded-xl p-6 shadow-lg">
                                 <div class="text-center mb-4">
-                                    <i class="fas fa-presentation text-6xl text-blue-600 mb-4"></i>
+                                    <img src="https://www.genspark.ai/api/files/s/hlRP9PrP" 
+                                         alt="Henry Imafidon - Salesforce Professional" 
+                                         class="w-48 h-48 rounded-2xl mx-auto mb-4 object-cover shadow-lg border-4 border-blue-200">
                                     <h4 class="text-xl font-bold text-gray-900">Complete Project Details</h4>
                                     <p class="text-gray-600 mt-2">View the full implementation presentation with detailed analysis, screenshots, and outcomes.</p>
                                 </div>
@@ -648,7 +650,9 @@ app.get('/', (c) => {
                             
                             <div class="bg-white rounded-xl p-6 shadow-lg">
                                 <div class="text-center mb-4">
-                                    <i class="fas fa-presentation text-6xl text-purple-600 mb-4"></i>
+                                    <img src="https://www.genspark.ai/api/files/s/hlRP9PrP" 
+                                         alt="Henry Imafidon - Salesforce Professional" 
+                                         class="w-48 h-48 rounded-2xl mx-auto mb-4 object-cover shadow-lg border-4 border-purple-200">
                                     <h4 class="text-xl font-bold text-gray-900">Complete Project Details</h4>
                                     <p class="text-gray-600 mt-2">Click to view the full implementation presentation with detailed challenges, solutions, and measurable outcomes.</p>
                                 </div>
