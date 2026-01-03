@@ -37,8 +37,8 @@ app.get('/', (c) => {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Henry Imafidon - Salesforce Administrator & Consultant</title>
-        <meta name="description" content="Salesforce Certified Administrator & Implementation Consultant specializing in CRM optimization, workflow automation, and process improvement.">
+        <title>Henry Imafidon - 6X Salesforce Certified Professional</title>
+        <meta name="description" content="6X Salesforce Certified Professional helping organizations transform operations with automated workflows and data-driven processes that increase efficiency by up to 40%.">
         
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,11 +66,11 @@ app.get('/', (c) => {
           }
           
           .gradient-bg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
           }
           
           .gradient-text {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -114,13 +114,13 @@ app.get('/', (c) => {
           }
           
           .btn-primary {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
             transition: all 0.3s ease;
           }
           
           .btn-primary:hover {
             transform: scale(1.05);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.4);
           }
           
           .certification-badge {
@@ -142,9 +142,9 @@ app.get('/', (c) => {
             width: 20px;
             height: 20px;
             border-radius: 50%;
-            background: #667eea;
+            background: #10b981;
             border: 4px solid white;
-            box-shadow: 0 0 0 4px #667eea;
+            box-shadow: 0 0 0 4px #10b981;
           }
         </style>
     </head>
@@ -159,11 +159,11 @@ app.get('/', (c) => {
                         <span class="ml-3 text-xl font-bold text-gray-900">Henry Imafidon</span>
                     </div>
                     <div class="hidden md:flex space-x-8">
-                        <a href="#home" class="text-gray-700 hover:text-purple-600 transition">Home</a>
-                        <a href="#about" class="text-gray-700 hover:text-purple-600 transition">About</a>
-                        <a href="#services" class="text-gray-700 hover:text-purple-600 transition">Services</a>
-                        <a href="#case-studies" class="text-gray-700 hover:text-purple-600 transition">Case Studies</a>
-                        <a href="#contact" class="text-gray-700 hover:text-purple-600 transition">Contact</a>
+                        <a href="#home" class="text-gray-700 hover:text-green-600 transition">Home</a>
+                        <a href="#about" class="text-gray-700 hover:text-green-600 transition">About</a>
+                        <a href="#services" class="text-gray-700 hover:text-green-600 transition">Services</a>
+                        <a href="#case-studies" class="text-gray-700 hover:text-green-600 transition">Case Studies</a>
+                        <a href="#contact" class="text-gray-700 hover:text-green-600 transition">Contact</a>
                     </div>
                     <button id="mobile-menu-btn" class="md:hidden text-gray-700">
                         <i class="fas fa-bars text-xl"></i>
@@ -174,11 +174,11 @@ app.get('/', (c) => {
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
                 <div class="px-4 py-4 space-y-3">
-                    <a href="#home" class="block text-gray-700 hover:text-purple-600">Home</a>
-                    <a href="#about" class="block text-gray-700 hover:text-purple-600">About</a>
-                    <a href="#services" class="block text-gray-700 hover:text-purple-600">Services</a>
-                    <a href="#case-studies" class="block text-gray-700 hover:text-purple-600">Case Studies</a>
-                    <a href="#contact" class="block text-gray-700 hover:text-purple-600">Contact</a>
+                    <a href="#home" class="block text-gray-700 hover:text-green-600">Home</a>
+                    <a href="#about" class="block text-gray-700 hover:text-green-600">About</a>
+                    <a href="#services" class="block text-gray-700 hover:text-green-600">Services</a>
+                    <a href="#case-studies" class="block text-gray-700 hover:text-green-600">Case Studies</a>
+                    <a href="#contact" class="block text-gray-700 hover:text-green-600">Contact</a>
                 </div>
             </div>
         </nav>
@@ -189,13 +189,13 @@ app.get('/', (c) => {
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div class="text-white" data-aos="fade-right">
                         <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                            Transform Your CRM Into a <span class="text-yellow-300">Competitive Advantage</span>
+                            Transform Your Salesforce Operations with <span class="text-yellow-300">Automated Workflows</span>
                         </h1>
-                        <p class="text-xl mb-4 text-purple-100">
-                            Salesforce Administration & Implementation Services for Organizations Ready to Optimize Operations, Automate Processes, and Elevate Customer Experience
+                        <p class="text-xl mb-4 text-green-100">
+                            Increase Efficiency by Up to 40% with Data-Driven Processes That Support Scalable Growth
                         </p>
-                        <p class="text-lg mb-8 leading-relaxed text-purple-50">
-                            I'm Henry Imafidon, a <strong>Salesforce Certified Administrator</strong> and Implementation Consultant with 2+ years of customer experience expertise and a proven track record of designing scalable CRM solutions that drive measurable results.
+                        <p class="text-lg mb-8 leading-relaxed text-green-50">
+                            I'm Henry Imafidon, a <strong>6X Salesforce Certified Professional</strong> with 7+ years of customer-facing experience helping organizations transform their Salesforce operations and enhance customer experience through automated workflows and data-driven strategies.
                         </p>
                         <div class="flex flex-wrap gap-4">
                             <a href="#contact" class="btn-primary text-white px-8 py-4 rounded-lg font-semibold inline-flex items-center">
@@ -211,16 +211,16 @@ app.get('/', (c) => {
                         <!-- Quick Stats -->
                         <div class="mt-12 grid grid-cols-3 gap-6">
                             <div class="text-center">
-                                <div class="text-3xl font-bold text-yellow-300">5+</div>
-                                <div class="text-sm text-purple-100">Certifications</div>
+                                <div class="text-3xl font-bold text-yellow-300">6X</div>
+                                <div class="text-sm text-green-100">Certified</div>
                             </div>
                             <div class="text-center">
-                                <div class="text-3xl font-bold text-yellow-300">2+</div>
-                                <div class="text-sm text-purple-100">Years Experience</div>
+                                <div class="text-3xl font-bold text-yellow-300">7+</div>
+                                <div class="text-sm text-green-100">Years CX</div>
                             </div>
                             <div class="text-center">
-                                <div class="text-3xl font-bold text-yellow-300">96%</div>
-                                <div class="text-sm text-purple-100">Satisfaction Rate</div>
+                                <div class="text-3xl font-bold text-yellow-300">40%</div>
+                                <div class="text-sm text-green-100">Efficiency Gain</div>
                             </div>
                         </div>
                     </div>
@@ -231,11 +231,11 @@ app.get('/', (c) => {
                                 <div class="space-y-6">
                                     <div class="flex items-center space-x-4">
                                         <div class="w-16 h-16 bg-yellow-300 rounded-full flex items-center justify-center">
-                                            <i class="fas fa-cloud text-purple-600 text-2xl"></i>
+                                            <i class="fas fa-certificate text-green-600 text-2xl"></i>
                                         </div>
                                         <div>
-                                            <h3 class="text-white font-bold text-lg">Salesforce Certified</h3>
-                                            <p class="text-purple-100">5 Active Certifications</p>
+                                            <h3 class="text-white font-bold text-lg">6X Salesforce Certified</h3>
+                                            <p class="text-green-100">Administrator & Implementation</p>
                                         </div>
                                     </div>
                                     
@@ -281,67 +281,67 @@ app.get('/', (c) => {
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16" data-aos="fade-up">
                     <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-4">About Me</h2>
-                    <p class="text-xl text-gray-600">Experience, Expertise, and Passion for CRM Excellence</p>
+                    <p class="text-xl text-gray-600">Resilience, Expertise, and Deep Empathy for Teams</p>
                 </div>
                 
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div data-aos="fade-right">
-                        <div class="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8">
-                            <h3 class="text-2xl font-bold text-gray-900 mb-4">What Sets Me Apart</h3>
+                        <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-4">My Journey & What Sets Me Apart</h3>
                             <p class="text-gray-700 leading-relaxed mb-6">
-                                With over 2 years of progressive experience in Salesforce strategy, I bring a unique blend of technical expertise and business acumen to every project. My journey has taken me across multiple industries—<strong>eCommerce, technology, retail, oil and gas, and nonprofits</strong>—where I've consistently delivered solutions that address real business challenges.
+                                My journey to becoming a <strong>6X Salesforce Certified Professional</strong> wasn't traditional. I overcame personal challenges including depression to build expertise that now helps teams achieve breakthrough results. This experience taught me <strong>resilience</strong> and gave me <strong>deep empathy</strong> for the operational challenges teams face daily.
                             </p>
                             <p class="text-gray-700 leading-relaxed mb-6">
-                                My background in high-volume customer service operations—where I've managed <strong>50–100 daily customer interactions</strong> and achieved <strong>96% satisfaction rates</strong>—gives me invaluable insight into how CRM systems should function to serve both your team and your customers.
+                                With <strong>7+ years of customer-facing experience</strong> across eCommerce, tech, and retail, I have unique insight into user behavior, operational pain points, and the systems teams need to thrive. This background helps me design Salesforce solutions that teams actually want to use.
                             </p>
                             <p class="text-gray-700 leading-relaxed">
-                                I'm particularly passionate about <strong>automation and process optimization</strong>. Whether it's implementing Flow automation to eliminate repetitive manual tasks, designing intuitive dashboards that give leadership real-time visibility, or structuring data management protocols that ensure data integrity, I focus on solutions that create lasting operational improvements.
+                                I help organizations <strong>transform their Salesforce operations</strong> and enhance customer experience by designing <strong>automated workflows and data-driven processes</strong> that increase efficiency by up to 40%, reduce manual effort, and support scalable growth.
                             </p>
                         </div>
                     </div>
                     
                     <div data-aos="fade-left">
-                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Professional Certifications</h3>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">6X Salesforce Certified Professional</h3>
                         <div class="grid grid-cols-2 gap-4 mb-8">
                             <div class="certification-badge rounded-xl p-6 text-center">
-                                <i class="fas fa-certificate text-4xl text-blue-600 mb-3"></i>
-                                <h4 class="font-bold text-gray-900 text-sm">Salesforce Certified Administrator</h4>
+                                <i class="fas fa-certificate text-4xl text-green-600 mb-3"></i>
+                                <h4 class="font-bold text-gray-900 text-sm">Certified Administrator</h4>
                             </div>
                             <div class="certification-badge rounded-xl p-6 text-center">
-                                <i class="fas fa-award text-4xl text-purple-600 mb-3"></i>
-                                <h4 class="font-bold text-gray-900 text-sm">Sales Cloud Consultant</h4>
+                                <i class="fas fa-award text-4xl text-green-600 mb-3"></i>
+                                <h4 class="font-bold text-gray-900 text-sm">Implementation Consultant</h4>
                             </div>
                             <div class="certification-badge rounded-xl p-6 text-center">
                                 <i class="fas fa-medal text-4xl text-green-600 mb-3"></i>
-                                <h4 class="font-bold text-gray-900 text-sm">Service Cloud Consultant</h4>
+                                <h4 class="font-bold text-gray-900 text-sm">CX Professional</h4>
                             </div>
                             <div class="certification-badge rounded-xl p-6 text-center">
-                                <i class="fas fa-star text-4xl text-yellow-600 mb-3"></i>
-                                <h4 class="font-bold text-gray-900 text-sm">Agentforce Certified</h4>
+                                <i class="fas fa-trophy text-4xl text-green-600 mb-3"></i>
+                                <h4 class="font-bold text-gray-900 text-sm">6X Certified</h4>
                             </div>
                         </div>
                         
                         <div class="bg-gray-50 rounded-xl p-6">
                             <h4 class="font-bold text-gray-900 mb-4 flex items-center">
-                                <i class="fas fa-chart-line text-purple-600 mr-2"></i>
+                                <i class="fas fa-chart-line text-green-600 mr-2"></i>
                                 Key Achievements
                             </h4>
                             <ul class="space-y-3">
                                 <li class="flex items-start">
                                     <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
-                                    <span class="text-gray-700"><strong>40% reduction</strong> in phone queue time through CRM optimization</span>
+                                    <span class="text-gray-700"><strong>Up to 40% efficiency increase</strong> through automated workflows</span>
                                 </li>
                                 <li class="flex items-start">
                                     <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
-                                    <span class="text-gray-700"><strong>₦1M+ daily revenue</strong> driven through process improvements</span>
+                                    <span class="text-gray-700"><strong>7+ years CX expertise</strong> across eCommerce, tech, and retail</span>
                                 </li>
                                 <li class="flex items-start">
                                     <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
-                                    <span class="text-gray-700"><strong>5+ hours weekly</strong> saved through workflow automation</span>
+                                    <span class="text-gray-700"><strong>Successful implementations</strong> reducing manual effort organization-wide</span>
                                 </li>
                                 <li class="flex items-start">
                                     <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
-                                    <span class="text-gray-700"><strong>96% satisfaction rate</strong> in customer service operations</span>
+                                    <span class="text-gray-700"><strong>Data-driven processes</strong> supporting scalable growth</span>
                                 </li>
                             </ul>
                         </div>
@@ -355,115 +355,51 @@ app.get('/', (c) => {
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16" data-aos="fade-up">
                     <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-4">Services</h2>
-                    <p class="text-xl text-gray-600">End-to-End Salesforce Solutions That Drive Results</p>
+                    <p class="text-xl text-gray-600">Comprehensive Salesforce Solutions That Transform Operations</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     
                     <!-- Service 1 -->
                     <div class="bg-white rounded-2xl p-8 card-hover border border-gray-100" data-aos="fade-up" data-aos-delay="100">
-                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center mb-6">
                             <i class="fas fa-cog text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Administration & Optimization</h3>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Administration & Configuration</h3>
                         <p class="text-gray-600 mb-6">
-                            Transform your CRM into a high-performing system with comprehensive administrative support and ongoing optimization.
+                            Complete platform setup, user management, and security optimization for peak performance.
                         </p>
                         <ul class="space-y-3 mb-6">
+                            <li class="flex items-start text-sm text-gray-700">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                Complete platform setup
+                            </li>
                             <li class="flex items-start text-sm text-gray-700">
                                 <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
                                 User management & permissions
                             </li>
                             <li class="flex items-start text-sm text-gray-700">
                                 <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Data quality & maintenance
+                                Security optimization
                             </li>
                             <li class="flex items-start text-sm text-gray-700">
                                 <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Reports & dashboards
-                            </li>
-                            <li class="flex items-start text-sm text-gray-700">
-                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Security & compliance
+                                System health monitoring
                             </li>
                         </ul>
-                        <span class="inline-block bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold">
-                            Perfect for ongoing support
+                        <span class="inline-block bg-green-50 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
+                            Foundation for success
                         </span>
                     </div>
                     
                     <!-- Service 2 -->
                     <div class="bg-white rounded-2xl p-8 card-hover border border-gray-100" data-aos="fade-up" data-aos-delay="200">
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
-                            <i class="fas fa-rocket text-white text-2xl"></i>
-                        </div>
-                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Implementation & Consulting</h3>
-                        <p class="text-gray-600 mb-6">
-                            Launch your Salesforce journey with confidence through strategic implementation and expert guidance.
-                        </p>
-                        <ul class="space-y-3 mb-6">
-                            <li class="flex items-start text-sm text-gray-700">
-                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Requirements & process mapping
-                            </li>
-                            <li class="flex items-start text-sm text-gray-700">
-                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                System design & configuration
-                            </li>
-                            <li class="flex items-start text-sm text-gray-700">
-                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Data migration & integration
-                            </li>
-                            <li class="flex items-start text-sm text-gray-700">
-                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                User training & adoption
-                            </li>
-                        </ul>
-                        <span class="inline-block bg-purple-50 text-purple-700 px-4 py-2 rounded-full text-sm font-semibold">
-                            Ideal for new deployments
-                        </span>
-                    </div>
-                    
-                    <!-- Service 3 -->
-                    <div class="bg-white rounded-2xl p-8 card-hover border border-gray-100" data-aos="fade-up" data-aos-delay="300">
                         <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center mb-6">
-                            <i class="fas fa-chart-line text-white text-2xl"></i>
-                        </div>
-                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Sales & Service Cloud</h3>
-                        <p class="text-gray-600 mb-6">
-                            Maximize Sales Cloud for lead management and Service Cloud for superior customer support operations.
-                        </p>
-                        <ul class="space-y-3 mb-6">
-                            <li class="flex items-start text-sm text-gray-700">
-                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Lead & opportunity optimization
-                            </li>
-                            <li class="flex items-start text-sm text-gray-700">
-                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Case management setup
-                            </li>
-                            <li class="flex items-start text-sm text-gray-700">
-                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Knowledge base creation
-                            </li>
-                            <li class="flex items-start text-sm text-gray-700">
-                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Service analytics
-                            </li>
-                        </ul>
-                        <span class="inline-block bg-green-50 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
-                            Best for sales & support teams
-                        </span>
-                    </div>
-                    
-                    <!-- Service 4 -->
-                    <div class="bg-white rounded-2xl p-8 card-hover border border-gray-100" data-aos="fade-up" data-aos-delay="100">
-                        <div class="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl flex items-center justify-center mb-6">
                             <i class="fas fa-bolt text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Workflow Automation</h3>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Workflow Automation (Flows)</h3>
                         <p class="text-gray-600 mb-6">
-                            Eliminate inefficiencies and free up team time with automated workflows and intelligent process flows.
+                            Transform repetitive tasks into automated processes that save hours weekly and increase accuracy.
                         </p>
                         <ul class="space-y-3 mb-6">
                             <li class="flex items-start text-sm text-gray-700">
@@ -472,64 +408,128 @@ app.get('/', (c) => {
                             </li>
                             <li class="flex items-start text-sm text-gray-700">
                                 <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Automation audit
+                                Process automation strategy
                             </li>
                             <li class="flex items-start text-sm text-gray-700">
                                 <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Task automation & notifications
+                                Eliminate repetitive tasks
                             </li>
                             <li class="flex items-start text-sm text-gray-700">
                                 <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Third-party integrations
+                                Increase team efficiency
                             </li>
                         </ul>
-                        <span class="inline-block bg-yellow-50 text-yellow-700 px-4 py-2 rounded-full text-sm font-semibold">
-                            Save 5+ hours weekly
+                        <span class="inline-block bg-green-50 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
+                            Save hours weekly
+                        </span>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class="bg-white rounded-2xl p-8 card-hover border border-gray-100" data-aos="fade-up" data-aos-delay="300">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center mb-6">
+                            <i class="fas fa-chart-line text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">CRM Optimization & Data Strategy</h3>
+                        <p class="text-gray-600 mb-6">
+                            Clean, accurate data architecture that drives better decision-making and operational excellence.
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start text-sm text-gray-700">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                Data quality audits
+                            </li>
+                            <li class="flex items-start text-sm text-gray-700">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                Data architecture design
+                            </li>
+                            <li class="flex items-start text-sm text-gray-700">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                Process optimization
+                            </li>
+                            <li class="flex items-start text-sm text-gray-700">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                Data governance strategy
+                            </li>
+                        </ul>
+                        <span class="inline-block bg-green-50 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
+                            Drive better decisions
+                        </span>
+                    </div>
+                    
+                    <!-- Service 4 -->
+                    <div class="bg-white rounded-2xl p-8 card-hover border border-gray-100" data-aos="fade-up" data-aos-delay="100">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center mb-6">
+                            <i class="fas fa-chart-bar text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Analytics & Reporting</h3>
+                        <p class="text-gray-600 mb-6">
+                            Custom dashboards that provide actionable insights for leadership and frontline teams.
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start text-sm text-gray-700">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                Custom dashboard design
+                            </li>
+                            <li class="flex items-start text-sm text-gray-700">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                Real-time reporting
+                            </li>
+                            <li class="flex items-start text-sm text-gray-700">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                KPI tracking & monitoring
+                            </li>
+                            <li class="flex items-start text-sm text-gray-700">
+                                <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
+                                Actionable insights
+                            </li>
+                        </ul>
+                        <span class="inline-block bg-green-50 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
+                            Data-driven decisions
                         </span>
                     </div>
                     
                     <!-- Service 5 -->
                     <div class="bg-white rounded-2xl p-8 card-hover border border-gray-100" data-aos="fade-up" data-aos-delay="200">
-                        <div class="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-xl flex items-center justify-center mb-6">
-                            <i class="fas fa-heart text-white text-2xl"></i>
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center mb-6">
+                            <i class="fas fa-briefcase text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Nonprofit NPSP</h3>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Service & Sales Operations</h3>
                         <p class="text-gray-600 mb-6">
-                            Specialized support for nonprofits to improve donor management, fundraising, and program tracking.
+                            Streamlined processes that improve lead conversion and case resolution efficiency.
                         </p>
                         <ul class="space-y-3 mb-6">
                             <li class="flex items-start text-sm text-gray-700">
                                 <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                NPSP configuration
+                                Lead management optimization
                             </li>
                             <li class="flex items-start text-sm text-gray-700">
                                 <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Donor & constituent management
+                                Case resolution workflows
                             </li>
                             <li class="flex items-start text-sm text-gray-700">
                                 <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Grant & fundraising tracking
+                                Sales process automation
                             </li>
                             <li class="flex items-start text-sm text-gray-700">
                                 <i class="fas fa-check text-green-600 mt-1 mr-2"></i>
-                                Program management
+                                Service excellence frameworks
                             </li>
                         </ul>
-                        <span class="inline-block bg-red-50 text-red-700 px-4 py-2 rounded-full text-sm font-semibold">
-                            Perfect for NGOs
+                        <span class="inline-block bg-green-50 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
+                            Boost conversions
                         </span>
                     </div>
                     
                     <!-- Custom Solution Card -->
-                    <div class="bg-gradient-to-br from-purple-600 to-blue-600 rounded-2xl p-8 card-hover text-white" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl p-8 card-hover text-white" data-aos="fade-up" data-aos-delay="300">
                         <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center mb-6">
-                            <i class="fas fa-puzzle-piece text-white text-2xl"></i>
+                            <i class="fas fa-users text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold mb-4">Custom Solutions</h3>
-                        <p class="mb-6 text-purple-100">
-                            Need something specific? I design tailored Salesforce solutions that match your unique business requirements.
+                        <h3 class="text-2xl font-bold mb-4">User Enablement & Training</h3>
+                        <p class="mb-6 text-green-100">
+                            Comprehensive support ensuring strong Salesforce adoption across all teams with hands-on training.
                         </p>
-                        <a href="#contact" class="inline-flex items-center bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition">
+                        <a href="#contact" class="inline-flex items-center bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50 transition">
                             <i class="fas fa-comments mr-2"></i>
                             Let's Discuss
                         </a>
@@ -550,34 +550,34 @@ app.get('/', (c) => {
                 <div class="space-y-12">
                     
                     <!-- Case Study 1 -->
-                    <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 md:p-12" data-aos="fade-up">
+                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
-                                <div class="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                                    Sales Optimization
+                                <div class="inline-block bg-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                                    Nonprofit Implementation
                                 </div>
-                                <h3 class="text-3xl font-bold text-gray-900 mb-4">Streamlining Lead Management and Reporting</h3>
+                                <h3 class="text-3xl font-bold text-gray-900 mb-4">Successful Salesforce Implementation for Africa Ohana</h3>
                                 <p class="text-gray-700 mb-4">
-                                    <strong>Client:</strong> BlackForce (Technology Sector)
+                                    <strong>Client:</strong> Africa Ohana (Nonprofit Organization)
                                 </p>
                                 <p class="text-gray-700 mb-4">
-                                    <strong>Challenge:</strong> The team struggled with disorganized lead tracking and inefficient reporting processes that made it difficult to understand sales pipeline health and forecast accurately.
+                                    <strong>Challenge:</strong> Needed a functional Salesforce org to track programs, manage donations, and streamline operations for their growing mission-driven organization.
                                 </p>
                                 <p class="text-gray-700 mb-6">
-                                    <strong>Solution:</strong> Implemented comprehensive lead management system with automated lead scoring, customized reports, and intuitive dashboards providing real-time visibility into sales metrics.
+                                    <strong>Solution:</strong> Contributed to successful Salesforce implementation as part of a collaborative team, creating a functional org with program tracking, donation management, and operational workflows.
                                 </p>
                                 <div class="space-y-2">
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-green-600 mr-3"></i>
-                                        <span class="text-gray-700">Improved lead tracking efficiency</span>
+                                        <span class="text-gray-700">Functional Salesforce org deployed</span>
                                     </div>
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-green-600 mr-3"></i>
-                                        <span class="text-gray-700">Data-driven decision making enabled</span>
+                                        <span class="text-gray-700">Program tracking & donation management</span>
                                     </div>
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-green-600 mr-3"></i>
-                                        <span class="text-gray-700">Streamlined sales processes</span>
+                                        <span class="text-gray-700">Team operates with confidence</span>
                                     </div>
                                 </div>
                             </div>
@@ -741,23 +741,23 @@ app.get('/', (c) => {
                         <h3 class="text-xl font-bold text-gray-900 mb-4">Business Skills</h3>
                         <ul class="space-y-2 text-gray-700">
                             <li class="flex items-center">
-                                <i class="fas fa-angle-right text-purple-600 mr-2"></i>
+                                <i class="fas fa-angle-right text-green-600 mr-2"></i>
                                 Process Improvement
                             </li>
                             <li class="flex items-center">
-                                <i class="fas fa-angle-right text-purple-600 mr-2"></i>
+                                <i class="fas fa-angle-right text-green-600 mr-2"></i>
                                 Change Management
                             </li>
                             <li class="flex items-center">
-                                <i class="fas fa-angle-right text-purple-600 mr-2"></i>
+                                <i class="fas fa-angle-right text-green-600 mr-2"></i>
                                 User Training
                             </li>
                             <li class="flex items-center">
-                                <i class="fas fa-angle-right text-purple-600 mr-2"></i>
+                                <i class="fas fa-angle-right text-green-600 mr-2"></i>
                                 Strategic Planning
                             </li>
                             <li class="flex items-center">
-                                <i class="fas fa-angle-right text-purple-600 mr-2"></i>
+                                <i class="fas fa-angle-right text-green-600 mr-2"></i>
                                 Customer Success
                             </li>
                         </ul>
@@ -777,9 +777,9 @@ app.get('/', (c) => {
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     
-                    <div class="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8" data-aos="fade-right">
+                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8" data-aos="fade-right">
                         <div class="flex items-center mb-6">
-                            <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4">
+                            <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4">
                                 T
                             </div>
                             <div>
@@ -799,9 +799,9 @@ app.get('/', (c) => {
                         </p>
                     </div>
                     
-                    <div class="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-8" data-aos="fade-left">
+                    <div class="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-8" data-aos="fade-left">
                         <div class="flex items-center mb-6">
-                            <div class="w-16 h-16 bg-yellow-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4">
+                            <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4">
                                 J
                             </div>
                             <div>
@@ -826,11 +826,11 @@ app.get('/', (c) => {
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="py-20 bg-gradient-to-br from-purple-600 to-blue-600">
+        <section id="contact" class="py-20 bg-gradient-to-br from-green-500 to-emerald-600">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-12" data-aos="fade-up">
                     <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Ready to Transform Your Salesforce Operations?</h2>
-                    <p class="text-xl text-purple-100">
+                    <p class="text-xl text-green-100">
                         Whether you're implementing Salesforce for the first time, optimizing an existing environment, or tackling a specific automation challenge, I'm here to help.
                     </p>
                 </div>
@@ -841,12 +841,12 @@ app.get('/', (c) => {
                             <div>
                                 <label class="block text-gray-700 font-semibold mb-2">Name *</label>
                                 <input type="text" name="name" required
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition">
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none transition">
                             </div>
                             <div>
                                 <label class="block text-gray-700 font-semibold mb-2">Email *</label>
                                 <input type="email" name="email" required
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition">
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none transition">
                             </div>
                         </div>
                         
@@ -854,19 +854,19 @@ app.get('/', (c) => {
                             <div>
                                 <label class="block text-gray-700 font-semibold mb-2">Company</label>
                                 <input type="text" name="company"
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition">
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none transition">
                             </div>
                             <div>
                                 <label class="block text-gray-700 font-semibold mb-2">Service Interest</label>
                                 <select name="service"
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition">
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none transition">
                                     <option value="">Select a service</option>
-                                    <option value="administration">Administration & Optimization</option>
-                                    <option value="implementation">Implementation & Consulting</option>
-                                    <option value="sales-service">Sales & Service Cloud</option>
-                                    <option value="automation">Workflow Automation</option>
-                                    <option value="npsp">Nonprofit NPSP</option>
-                                    <option value="custom">Custom Solution</option>
+                                    <option value="administration">Administration & Configuration</option>
+                                    <option value="automation">Workflow Automation (Flows)</option>
+                                    <option value="crm-optimization">CRM Optimization & Data Strategy</option>
+                                    <option value="analytics">Analytics & Reporting</option>
+                                    <option value="operations">Service & Sales Operations</option>
+                                    <option value="training">User Enablement & Training</option>
                                 </select>
                             </div>
                         </div>
@@ -920,14 +920,14 @@ app.get('/', (c) => {
                             <span class="ml-3 text-xl font-bold">Henry Imafidon</span>
                         </div>
                         <p class="text-gray-400 mb-4">
-                            Salesforce Certified Administrator & Implementation Consultant helping organizations transform their CRM into a competitive advantage.
+                            6X Salesforce Certified Professional helping organizations transform operations with automated workflows and data-driven processes that increase efficiency by up to 40%.
                         </p>
                         <div class="flex space-x-4">
+                            <span class="text-gray-400 text-sm">6X Certified</span>
+                            <span class="text-gray-400 text-sm">•</span>
                             <span class="text-gray-400 text-sm">7+ Years CX</span>
                             <span class="text-gray-400 text-sm">•</span>
-                            <span class="text-gray-400 text-sm">5 Certifications</span>
-                            <span class="text-gray-400 text-sm">•</span>
-                            <span class="text-gray-400 text-sm">96% Satisfaction</span>
+                            <span class="text-gray-400 text-sm">40% Efficiency Gain</span>
                         </div>
                     </div>
                     
@@ -946,10 +946,10 @@ app.get('/', (c) => {
                         <h4 class="font-bold mb-4">Services</h4>
                         <ul class="space-y-2 text-gray-400">
                             <li>Administration</li>
-                            <li>Implementation</li>
-                            <li>Automation</li>
-                            <li>Sales Cloud</li>
-                            <li>Service Cloud</li>
+                            <li>Workflow Automation</li>
+                            <li>CRM Optimization</li>
+                            <li>Analytics</li>
+                            <li>User Training</li>
                         </ul>
                     </div>
                 </div>
