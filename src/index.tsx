@@ -604,7 +604,62 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     
-                    <!-- Case Study 2 - Africa Ohana -->
+                    <!-- Case Study 2 - Salesforce CRM Implementation -->
+                    <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 md:p-12 border-2 border-purple-200" data-aos="fade-up">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce CRM Implementation</h3>
+                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vQybzqGFIzMlzUjOvkorx1-SDYImCzQDe-mE_Qi074L0fIVy451QMxaFLi6maYdAg/pub?start=true&loop=true&delayms=3000" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="hidden md:inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
+                                        <i class="fas fa-external-link-alt mr-2"></i>
+                                        View Case Study
+                                    </a>
+                                </div>
+                                <p class="text-gray-700 mb-6 leading-relaxed">
+                                    Comprehensive Salesforce CRM implementation focusing on optimizing business processes, improving data management, and enhancing customer relationship workflows. The project delivered streamlined operations and improved efficiency across sales and service functions.
+                                </p>
+                                <div class="space-y-3 mb-6">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-purple-600 mr-3"></i>
+                                        <span class="text-gray-700">Complete CRM system implementation</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-purple-600 mr-3"></i>
+                                        <span class="text-gray-700">Optimized sales and service processes</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-purple-600 mr-3"></i>
+                                        <span class="text-gray-700">Enhanced data management and reporting</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- View Full Case Study Button -->
+                                <a href="https://docs.google.com/presentation/d/e/2PACX-1vQybzqGFIzMlzUjOvkorx1-SDYImCzQDe-mE_Qi074L0fIVy451QMxaFLi6maYdAg/pub?start=true&loop=true&delayms=3000" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
+                                    <i class="fas fa-external-link-alt mr-2"></i>
+                                    View Full Case Study Presentation
+                                </a>
+                            </div>
+                            
+                            <div class="bg-white rounded-xl p-6 shadow-lg">
+                                <div class="text-center mb-4">
+                                    <i class="fas fa-presentation text-6xl text-purple-600 mb-4"></i>
+                                    <h4 class="text-xl font-bold text-gray-900">Complete Project Details</h4>
+                                    <p class="text-gray-600 mt-2">Click to view the full implementation presentation with detailed challenges, solutions, and measurable outcomes.</p>
+                                </div>
+                                <div class="border-t pt-4 mt-4">
+                                    <p class="text-sm text-gray-500 text-center">All project details, metrics, and results are available in the presentation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Case Study 3 - Africa Ohana -->
                     <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
