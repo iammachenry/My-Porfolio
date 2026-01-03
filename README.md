@@ -84,7 +84,8 @@
 ### Your Journey
 - **Overcame personal challenges** including depression to build this expertise
 - **Deep empathy** for operational challenges teams face daily
-- **2+ years in Salesforce, 7+ years in CX** across eCommerce, tech, and retail
+- **2+ years as Salesforce Administrator & Implementation Consultant**
+- **7+ years in Customer Experience** across eCommerce, tech, and retail
 - **Unique insight** into user behavior and operational pain points
 
 ### Results You Drive
@@ -97,6 +98,7 @@
 
 **Name**: Henry Imafidon  
 **Title**: 6X Salesforce Certified Professional  
+**Roles**: Salesforce Administrator & Implementation Consultant  
 **Specialties**:
 - Salesforce Administration & Configuration
 - Workflow Automation (Flows)
@@ -106,7 +108,7 @@
 - User Enablement & Training
 
 **Certifications**: 6 Active Salesforce Certifications  
-**Experience**: 2+ Years in Salesforce | 7+ Years in Customer Experience  
+**Experience**: 2+ Years as Salesforce Administrator & Implementation Consultant | 7+ Years in Customer Experience  
 **Industries**: eCommerce, Technology, Retail, Nonprofits
 
 ## Recent Success
@@ -232,7 +234,7 @@ webapp/
 
 ## Performance Metrics Highlighted
 - 🎖️ **6X Salesforce Certified** Professional
-- ⚡ **2+ years** in Salesforce
+- 👨‍💼 **2+ years** as Salesforce Administrator & Implementation Consultant
 - 👥 **7+ years** in Customer Experience
 - 📈 **Up to 40%** efficiency increase potential
 - ⏱️ **Hours saved** weekly through automation

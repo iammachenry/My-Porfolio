@@ -195,7 +195,7 @@ app.get('/', (c) => {
                             Increase Efficiency by Up to 40% with Data-Driven Processes That Support Scalable Growth
                         </p>
                         <p class="text-lg mb-8 leading-relaxed text-green-50">
-                            I'm Henry Imafidon, a <strong>6X Salesforce Certified Professional</strong> with 2+ years in Salesforce and 7+ years of customer experience helping organizations transform their Salesforce operations through automated workflows and data-driven strategies.
+                            I'm Henry Imafidon, a <strong>6X Salesforce Certified Professional</strong> with 2+ years as a Salesforce Administrator and Implementation Consultant, plus 7+ years of customer experience helping organizations transform their operations through automated workflows and data-driven strategies.
                         </p>
                         <div class="flex flex-wrap gap-4">
                             <a href="#contact" class="btn-primary text-white px-8 py-4 rounded-lg font-semibold inline-flex items-center">
@@ -292,7 +292,7 @@ app.get('/', (c) => {
                                 My journey to becoming a <strong>6X Salesforce Certified Professional</strong> wasn't traditional. I overcame personal challenges including depression to build expertise that now helps teams achieve breakthrough results. This experience taught me <strong>resilience</strong> and gave me <strong>deep empathy</strong> for the operational challenges teams face daily.
                             </p>
                             <p class="text-gray-700 leading-relaxed mb-6">
-                                With <strong>2+ years in Salesforce and 7+ years of customer experience</strong> across eCommerce, tech, and retail, I have unique insight into user behavior, operational pain points, and the systems teams need to thrive. This background helps me design Salesforce solutions that teams actually want to use.
+                                With <strong>2+ years as a Salesforce Administrator and Implementation Consultant, plus 7+ years of customer experience</strong> across eCommerce, tech, and retail, I have unique insight into user behavior, operational pain points, and the systems teams need to thrive. This background helps me design Salesforce solutions that teams actually want to use.
                             </p>
                             <p class="text-gray-700 leading-relaxed">
                                 I help organizations <strong>transform their Salesforce operations</strong> and enhance customer experience by designing <strong>automated workflows and data-driven processes</strong> that increase efficiency by up to 40%, reduce manual effort, and support scalable growth.
@@ -333,7 +333,7 @@ app.get('/', (c) => {
                                 </li>
                                 <li class="flex items-start">
                                     <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
-                                    <span class="text-gray-700"><strong>2+ years Salesforce | 7+ years CX</strong> across eCommerce, tech, and retail</span>
+                                    <span class="text-gray-700"><strong>2+ years SF Admin & Implementation | 7+ years CX</strong> across industries</span>
                                 </li>
                                 <li class="flex items-start">
                                     <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
@@ -920,14 +920,14 @@ app.get('/', (c) => {
                             <span class="ml-3 text-xl font-bold">Henry Imafidon</span>
                         </div>
                         <p class="text-gray-400 mb-4">
-                            6X Salesforce Certified Professional with 2+ years in Salesforce and 7+ years in customer experience, helping organizations transform operations with automated workflows that increase efficiency by up to 40%.
+                            6X Salesforce Certified Professional - Salesforce Administrator and Implementation Consultant with 2+ years experience and 7+ years in customer experience, helping organizations transform operations with automated workflows that increase efficiency by up to 40%.
                         </p>
                         <div class="flex space-x-4">
                             <span class="text-gray-400 text-sm">6X Certified</span>
                             <span class="text-gray-400 text-sm">•</span>
-                            <span class="text-gray-400 text-sm">2Yrs SF | 7Yrs CX</span>
+                            <span class="text-gray-400 text-sm">2Yrs Admin & Implementation</span>
                             <span class="text-gray-400 text-sm">•</span>
-                            <span class="text-gray-400 text-sm">40% Efficiency</span>
+                            <span class="text-gray-400 text-sm">7Yrs CX</span>
                         </div>
                     </div>
                     
