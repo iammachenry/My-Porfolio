@@ -556,15 +556,21 @@ app.get('/', (c) => {
                                 <div class="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-2">
                                     🎯 Project 1
                                 </div>
-                                <h3 class="text-3xl font-bold text-gray-900 mb-4">BrightWave Salesforce Implementation</h3>
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-3xl font-bold text-gray-900">BrightWave Salesforce Implementation</h3>
+                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vSIkcOhTXmHhN_27UEODNtIsljAoLsV4G1Jgw7cCaG9nCXvqXWRoBEFrBg08ix5EA/pub?start=false&loop=false&delayms=3000" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="hidden md:inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
+                                        <i class="fas fa-external-link-alt mr-2"></i>
+                                        View Case Study
+                                    </a>
+                                </div>
                                 <p class="text-gray-700 mb-4">
-                                    <strong>Client:</strong> BrightWave Electronics
+                                    <strong>Client:</strong> BrightWave Electronics (Consumer Electronics Retail & Support, ~45 employees)
                                 </p>
-                                <p class="text-gray-700 mb-4">
-                                    <strong>Challenge:</strong> BrightWave Electronics struggled with disconnected sales and customer support processes driven by spreadsheets and a shared inbox. This resulted in lost leads, slow case resolution, poor pipeline visibility, and no centralized view of customer data, negatively impacting revenue forecasting and customer satisfaction.
-                                </p>
-                                <p class="text-gray-700 mb-6">
-                                    <strong>Solution:</strong> Implemented an end-to-end Salesforce Sales & Service Cloud solution to centralize customer data and standardize operations. The implementation included Sales Cloud for structured lead and opportunity management, Service Cloud with Email-to-Case, SLAs, and Knowledge for support efficiency, automation using Salesforce Flow, and real-time dashboards for sales and service leadership.
+                                <p class="text-gray-700 mb-6 leading-relaxed">
+                                    I implemented Salesforce Sales Cloud and Service Cloud for BrightWave Electronics, a consumer electronics retail and support company with approximately 45 employees. I configured Sales Cloud to optimize lead and opportunity management, automate workflows, and enhance reporting capabilities for the sales team. I also set up Service Cloud to streamline customer support processes, improve case management, and enable seamless collaboration across departments. The project increased operational efficiency, provided better visibility into sales and support activities, and enhanced the overall customer experience.
                                 </p>
                                 <div class="space-y-3 mb-6">
                                     <div class="flex items-center">
