@@ -188,6 +188,17 @@ app.get('/', (c) => {
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div class="text-white" data-aos="fade-right">
+                        <!-- Professional Photo and Name -->
+                        <div class="flex items-center gap-6 mb-8">
+                            <img src="https://www.genspark.ai/api/files/s/hlRP9PrP" 
+                                 alt="Henry Imafidon - Salesforce Certified Professional" 
+                                 class="w-28 h-28 rounded-full border-4 border-yellow-300 shadow-2xl object-cover">
+                            <div>
+                                <h2 class="text-3xl font-bold text-yellow-300">Henry Imafidon</h2>
+                                <p class="text-lg text-green-100">6X Salesforce Certified Professional</p>
+                            </div>
+                        </div>
+                        
                         <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
                             Transform Your Salesforce Operations with <span class="text-yellow-300">Automated Workflows</span>
                         </h1>
@@ -195,7 +206,7 @@ app.get('/', (c) => {
                             Increase Efficiency by Up to 40% with Data-Driven Processes That Support Scalable Growth
                         </p>
                         <p class="text-lg mb-8 leading-relaxed text-green-50">
-                            I'm Henry Imafidon, a <strong>6X Salesforce Certified Professional</strong> with 2+ years as a Salesforce Administrator and Implementation Consultant, plus 7+ years of customer experience helping organizations transform their operations through automated workflows and data-driven strategies.
+                            I'm a <strong>Salesforce Administrator and Implementation Consultant</strong> with 2+ years of Salesforce experience and 7+ years in customer experience, helping organizations transform their operations through automated workflows and data-driven strategies.
                         </p>
                         <div class="flex flex-wrap gap-4">
                             <a href="#contact" class="btn-primary text-white px-8 py-4 rounded-lg font-semibold inline-flex items-center">
@@ -287,6 +298,17 @@ app.get('/', (c) => {
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div data-aos="fade-right">
                         <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8">
+                            <!-- Photo in About Section -->
+                            <div class="flex items-center gap-4 mb-6">
+                                <img src="https://www.genspark.ai/api/files/s/hlRP9PrP" 
+                                     alt="Henry Imafidon" 
+                                     class="w-20 h-20 rounded-full border-3 border-green-600 shadow-lg object-cover">
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900">Henry Imafidon</h3>
+                                    <p class="text-sm text-gray-600">Salesforce Administrator & Implementation Consultant</p>
+                                </div>
+                            </div>
+                            
                             <h3 class="text-2xl font-bold text-gray-900 mb-4">My Journey & What Sets Me Apart</h3>
                             <p class="text-gray-700 leading-relaxed mb-6">
                                 My journey to becoming a <strong>6X Salesforce Certified Professional</strong> wasn't traditional. I overcame personal challenges including depression to build expertise that now helps teams achieve breakthrough results. This experience taught me <strong>resilience</strong> and gave me <strong>deep empathy</strong> for the operational challenges teams face daily.
@@ -895,7 +917,7 @@ app.get('/', (c) => {
                                    class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white hover:bg-blue-700 transition">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
-                                <a href="mailto:henry@example.com" 
+                                <a href="mailto:henryeromosele1@gmail.com" 
                                    class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white hover:bg-purple-700 transition">
                                     <i class="fas fa-envelope"></i>
                                 </a>
