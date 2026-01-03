@@ -553,11 +553,8 @@ app.get('/', (c) => {
                     <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 border-2 border-blue-200" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
-                                <div class="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-2">
-                                    🎯 Project 1
-                                </div>
                                 <div class="flex items-center justify-between mb-4">
-                                    <h3 class="text-3xl font-bold text-gray-900">BrightWave Salesforce Implementation</h3>
+                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce Implementation Project</h3>
                                     <a href="https://docs.google.com/presentation/d/e/2PACX-1vSIkcOhTXmHhN_27UEODNtIsljAoLsV4G1Jgw7cCaG9nCXvqXWRoBEFrBg08ix5EA/pub?start=false&loop=false&delayms=3000" 
                                        target="_blank" 
                                        rel="noopener noreferrer"
@@ -566,9 +563,6 @@ app.get('/', (c) => {
                                         View Case Study
                                     </a>
                                 </div>
-                                <p class="text-gray-700 mb-4">
-                                    <strong>Client:</strong> BrightWave Electronics (Consumer Electronics Retail & Support, ~45 employees)
-                                </p>
                                 <p class="text-gray-700 mb-6 leading-relaxed">
                                     I implemented Salesforce Sales Cloud and Service Cloud for BrightWave Electronics, a consumer electronics retail and support company with approximately 45 employees. I configured Sales Cloud to optimize lead and opportunity management, automate workflows, and enhance reporting capabilities for the sales team. I also set up Service Cloud to streamline customer support processes, improve case management, and enable seamless collaboration across departments. The project increased operational efficiency, provided better visibility into sales and support activities, and enhanced the overall customer experience.
                                 </p>
