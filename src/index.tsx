@@ -549,35 +549,35 @@ app.get('/', (c) => {
                 
                 <div class="space-y-12">
                     
-                    <!-- Case Study 1 - Brightwave (First Project) -->
+                    <!-- Case Study 1 - Brightwave (Project 1) -->
                     <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 border-2 border-blue-200" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
                                 <div class="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-2">
-                                    🎯 First Project
+                                    🎯 Project 1
                                 </div>
-                                <h3 class="text-3xl font-bold text-gray-900 mb-4">Brightwave Salesforce Implementation</h3>
+                                <h3 class="text-3xl font-bold text-gray-900 mb-4">BrightWave Salesforce Implementation</h3>
                                 <p class="text-gray-700 mb-4">
-                                    <strong>Client:</strong> Brightwave
+                                    <strong>Client:</strong> BrightWave Electronics
                                 </p>
                                 <p class="text-gray-700 mb-4">
-                                    <strong>Challenge:</strong> [Please provide: What was Brightwave's main challenge?]
+                                    <strong>Challenge:</strong> BrightWave Electronics struggled with disconnected sales and customer support processes driven by spreadsheets and a shared inbox. This resulted in lost leads, slow case resolution, poor pipeline visibility, and no centralized view of customer data, negatively impacting revenue forecasting and customer satisfaction.
                                 </p>
                                 <p class="text-gray-700 mb-6">
-                                    <strong>Solution:</strong> [Please provide: What Salesforce solutions did you implement?]
+                                    <strong>Solution:</strong> Implemented an end-to-end Salesforce Sales & Service Cloud solution to centralize customer data and standardize operations. The implementation included Sales Cloud for structured lead and opportunity management, Service Cloud with Email-to-Case, SLAs, and Knowledge for support efficiency, automation using Salesforce Flow, and real-time dashboards for sales and service leadership.
                                 </p>
                                 <div class="space-y-3 mb-6">
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-blue-600 mr-3"></i>
-                                        <span class="text-gray-700">[Key Result 1]</span>
+                                        <span class="text-gray-700"><strong>108% increase</strong> in lead conversion rate (12% → 25%)</span>
                                     </div>
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-blue-600 mr-3"></i>
-                                        <span class="text-gray-700">[Key Result 2]</span>
+                                        <span class="text-gray-700"><strong>71% reduction</strong> in average case resolution time (3.5 days → &lt;24 hours)</span>
                                     </div>
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-blue-600 mr-3"></i>
-                                        <span class="text-gray-700">[Key Result 3]</span>
+                                        <span class="text-gray-700"><strong>50% improvement</strong> in forecast accuracy (60% → 90%)</span>
                                     </div>
                                 </div>
                                 
