@@ -99,6 +99,8 @@
 **Name**: Henry Imafidon  
 **Title**: 6X Salesforce Certified Professional  
 **Roles**: Salesforce Administrator & Implementation Consultant  
+**Email**: henryeromosele1@gmail.com  
+**Photo**: Professional headshot displayed in Hero and About sections  
 **Specialties**:
 - Salesforce Administration & Configuration
 - Workflow Automation (Flows)
