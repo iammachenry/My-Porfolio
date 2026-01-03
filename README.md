@@ -71,7 +71,8 @@
 
 ## URLs
 - **Local Development**: http://localhost:3000
-- **Production**: (To be deployed to Cloudflare Pages)
+- **Sandbox Preview**: https://3000-i3u6jgr1af5pkyvkszw8v-d0b9e1e2.sandbox.novita.ai
+- **Production**: (Ready to deploy to Cloudflare Pages)
 - **API Endpoint**: /api/contact
 
 ## Data Architecture
@@ -150,7 +151,8 @@ webapp/
 
 ## Deployment Status
 - **Platform**: Cloudflare Pages (Ready)
-- **Status**: ⏳ Ready for Deployment
+- **Status**: ✅ Running in Sandbox | ⏳ Ready for Production Deployment
+- **Sandbox URL**: https://3000-i3u6jgr1af5pkyvkszw8v-d0b9e1e2.sandbox.novita.ai
 - **Build Command**: `npm run build`
 - **Output Directory**: `dist/`
 - **Last Updated**: 2026-01-03
