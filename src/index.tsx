@@ -593,7 +593,7 @@ app.get('/', (c) => {
                             
                             <div class="bg-white rounded-xl p-6 shadow-lg">
                                 <div class="text-center mb-4">
-                                    <img src="https://www.genspark.ai/api/files/s/hlRP9PrP" 
+                                    <img src="/static/henry-professional.jpg" 
                                          alt="Henry Imafidon - Salesforce Professional" 
                                          class="w-48 h-48 rounded-2xl mx-auto mb-4 object-cover shadow-lg border-4 border-blue-200">
                                     <h4 class="text-xl font-bold text-gray-900">Complete Project Details</h4>
@@ -650,7 +650,7 @@ app.get('/', (c) => {
                             
                             <div class="bg-white rounded-xl p-6 shadow-lg">
                                 <div class="text-center mb-4">
-                                    <img src="https://www.genspark.ai/api/files/s/hlRP9PrP" 
+                                    <img src="/static/henry-professional.jpg" 
                                          alt="Henry Imafidon - Salesforce Professional" 
                                          class="w-48 h-48 rounded-2xl mx-auto mb-4 object-cover shadow-lg border-4 border-purple-200">
                                     <h4 class="text-xl font-bold text-gray-900">Complete Project Details</h4>
