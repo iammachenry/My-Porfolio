@@ -549,7 +549,62 @@ app.get('/', (c) => {
                 
                 <div class="space-y-12">
                     
-                    <!-- Case Study 1 -->
+                    <!-- Case Study 1 - Brightwave (First Project) -->
+                    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 border-2 border-blue-200" data-aos="fade-up">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div>
+                                <div class="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-2">
+                                    🎯 First Project
+                                </div>
+                                <h3 class="text-3xl font-bold text-gray-900 mb-4">Brightwave Salesforce Implementation</h3>
+                                <p class="text-gray-700 mb-4">
+                                    <strong>Client:</strong> Brightwave
+                                </p>
+                                <p class="text-gray-700 mb-4">
+                                    <strong>Challenge:</strong> [Please provide: What was Brightwave's main challenge?]
+                                </p>
+                                <p class="text-gray-700 mb-6">
+                                    <strong>Solution:</strong> [Please provide: What Salesforce solutions did you implement?]
+                                </p>
+                                <div class="space-y-3 mb-6">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-blue-600 mr-3"></i>
+                                        <span class="text-gray-700">[Key Result 1]</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-blue-600 mr-3"></i>
+                                        <span class="text-gray-700">[Key Result 2]</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-blue-600 mr-3"></i>
+                                        <span class="text-gray-700">[Key Result 3]</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- View Full Case Study Button -->
+                                <a href="https://docs.google.com/presentation/d/e/2PACX-1vSIkcOhTXmHhN_27UEODNtIsljAoLsV4G1Jgw7cCaG9nCXvqXWRoBEFrBg08ix5EA/pub?start=false&loop=false&delayms=3000" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
+                                    <i class="fas fa-external-link-alt mr-2"></i>
+                                    View Full Case Study Presentation
+                                </a>
+                            </div>
+                            
+                            <div class="bg-white rounded-xl p-6 shadow-lg">
+                                <div class="text-center mb-4">
+                                    <i class="fas fa-presentation text-6xl text-blue-600 mb-4"></i>
+                                    <h4 class="text-xl font-bold text-gray-900">Complete Project Details</h4>
+                                    <p class="text-gray-600 mt-2">View the full implementation presentation with detailed analysis, screenshots, and outcomes.</p>
+                                </div>
+                                <div class="border-t pt-4 mt-4">
+                                    <p class="text-sm text-gray-500 text-center">Click "View Full Case Study" to see the complete project documentation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Case Study 2 - Africa Ohana -->
                     <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
