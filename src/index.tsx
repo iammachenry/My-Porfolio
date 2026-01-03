@@ -591,16 +591,27 @@ app.get('/', (c) => {
                                 </a>
                             </div>
                             
-                            <div class="bg-white rounded-xl p-6 shadow-lg">
-                                <div class="text-center mb-4">
+                            <div class="relative bg-gradient-to-br from-blue-100 via-blue-50 to-white rounded-xl p-8 shadow-lg overflow-hidden">
+                                <!-- Decorative Background Pattern -->
+                                <div class="absolute inset-0 opacity-10">
+                                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="grid1" width="40" height="40" patternUnits="userSpaceOnUse">
+                                                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e40af" stroke-width="1"/>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#grid1)" />
+                                        <circle cx="10%" cy="20%" r="30" fill="#3b82f6" opacity="0.3"/>
+                                        <circle cx="80%" cy="70%" r="40" fill="#60a5fa" opacity="0.3"/>
+                                        <circle cx="90%" cy="30%" r="20" fill="#93c5fd" opacity="0.3"/>
+                                    </svg>
+                                </div>
+                                <div class="relative z-10 text-center">
                                     <img src="/static/henry-professional.jpg" 
                                          alt="Henry Imafidon - Salesforce Professional" 
-                                         class="w-48 h-48 rounded-2xl mx-auto mb-4 object-cover shadow-lg border-4 border-blue-200">
-                                    <h4 class="text-xl font-bold text-gray-900">Complete Project Details</h4>
-                                    <p class="text-gray-600 mt-2">View the full implementation presentation with detailed analysis, screenshots, and outcomes.</p>
-                                </div>
-                                <div class="border-t pt-4 mt-4">
-                                    <p class="text-sm text-gray-500 text-center">Click "View Full Case Study" to see the complete project documentation</p>
+                                         class="w-64 h-64 rounded-2xl mx-auto mb-6 object-cover shadow-2xl border-4 border-blue-400">
+                                    <h4 class="text-xl font-bold text-gray-900 mb-2">Complete Project Details</h4>
+                                    <p class="text-gray-700 text-sm">View the full implementation presentation with detailed analysis, screenshots, and outcomes.</p>
                                 </div>
                             </div>
                         </div>
@@ -648,16 +659,27 @@ app.get('/', (c) => {
                                 </a>
                             </div>
                             
-                            <div class="bg-white rounded-xl p-6 shadow-lg">
-                                <div class="text-center mb-4">
+                            <div class="relative bg-gradient-to-br from-purple-100 via-purple-50 to-white rounded-xl p-8 shadow-lg overflow-hidden">
+                                <!-- Decorative Background Pattern -->
+                                <div class="absolute inset-0 opacity-10">
+                                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+                                                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#7c3aed" stroke-width="1"/>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#grid2)" />
+                                        <circle cx="15%" cy="25%" r="35" fill="#a855f7" opacity="0.3"/>
+                                        <circle cx="85%" cy="65%" r="45" fill="#c084fc" opacity="0.3"/>
+                                        <circle cx="90%" cy="35%" r="25" fill="#d8b4fe" opacity="0.3"/>
+                                    </svg>
+                                </div>
+                                <div class="relative z-10 text-center">
                                     <img src="/static/henry-professional.jpg" 
                                          alt="Henry Imafidon - Salesforce Professional" 
-                                         class="w-48 h-48 rounded-2xl mx-auto mb-4 object-cover shadow-lg border-4 border-purple-200">
-                                    <h4 class="text-xl font-bold text-gray-900">Complete Project Details</h4>
-                                    <p class="text-gray-600 mt-2">Click to view the full implementation presentation with detailed challenges, solutions, and measurable outcomes.</p>
-                                </div>
-                                <div class="border-t pt-4 mt-4">
-                                    <p class="text-sm text-gray-500 text-center">All project details, metrics, and results are available in the presentation</p>
+                                         class="w-64 h-64 rounded-2xl mx-auto mb-6 object-cover shadow-2xl border-4 border-purple-400">
+                                    <h4 class="text-xl font-bold text-gray-900 mb-2">Complete Project Details</h4>
+                                    <p class="text-gray-700 text-sm">Click to view the full implementation presentation with detailed challenges, solutions, and measurable outcomes.</p>
                                 </div>
                             </div>
                         </div>
