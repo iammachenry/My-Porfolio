@@ -635,7 +635,7 @@ app.get('/', (c) => {
                                         <i class="fas fa-headset mr-1"></i> Service Cloud
                                     </span>
                                     <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
-                                        <i class="fas fa-network-wired mr-1"></i> Omnichannel
+                                        <i class="fas fa-comments mr-1"></i> Omnichannel
                                     </span>
                                     <span class="bg-teal-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
                                         <i class="fas fa-globe-americas mr-1"></i> Multi-Currency
