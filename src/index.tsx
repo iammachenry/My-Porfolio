@@ -269,7 +269,7 @@ app.get('/', (c) => {
                         <a href="#services" class="text-gray-700 hover:text-green-600 transition">Services</a>
                         <a href="#case-studies" class="text-gray-700 hover:text-green-600 transition">Case Studies</a>
                         <a href="#contact" class="text-gray-700 hover:text-green-600 transition">Contact</a>
-                        <a href="https://docs.google.com/document/d/1Ks7c8i5qF_QOIx9yM-nZT8VX2FwGHLJY/edit?usp=sharing&ouid=113349861854735395805&rtpof=true&sd=true" 
+                        <a href="https://drive.google.com/file/d/1srpFAplJVJj4yO4mg4zWlYO2IfZdG-Ra/view?usp=sharing" 
                            target="_blank"
                            rel="noopener noreferrer"
                            class="bg-gradient-to-r from-green-600 to-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold inline-flex items-center hover:from-green-700 hover:to-blue-700 transition shadow-md">
@@ -291,7 +291,7 @@ app.get('/', (c) => {
                     <a href="#services" class="block text-gray-700 hover:text-green-600">Services</a>
                     <a href="#case-studies" class="block text-gray-700 hover:text-green-600">Case Studies</a>
                     <a href="#contact" class="block text-gray-700 hover:text-green-600">Contact</a>
-                    <a href="https://docs.google.com/document/d/1Ks7c8i5qF_QOIx9yM-nZT8VX2FwGHLJY/edit?usp=sharing&ouid=113349861854735395805&rtpof=true&sd=true" 
+                    <a href="https://drive.google.com/file/d/1srpFAplJVJj4yO4mg4zWlYO2IfZdG-Ra/view?usp=sharing" 
                        target="_blank"
                        rel="noopener noreferrer"
                        class="block bg-gradient-to-r from-green-600 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-center">
@@ -321,7 +321,7 @@ app.get('/', (c) => {
                                 <i class="fas fa-calendar-check mr-2"></i>
                                 Schedule Free Consultation
                             </a>
-                            <a href="https://docs.google.com/document/d/1Ks7c8i5qF_QOIx9yM-nZT8VX2FwGHLJY/edit?usp=sharing&ouid=113349861854735395805&rtpof=true&sd=true" 
+                            <a href="https://drive.google.com/file/d/1srpFAplJVJj4yO4mg4zWlYO2IfZdG-Ra/view?usp=sharing" 
                                target="_blank"
                                rel="noopener noreferrer"
                                class="bg-white text-green-600 px-8 py-4 rounded-lg font-semibold inline-flex items-center hover:bg-green-50 transition shadow-lg">
@@ -801,7 +801,7 @@ app.get('/', (c) => {
                                     <p class="text-sm text-gray-600">Updated January 2026</p>
                                 </div>
 
-                                <a href="https://docs.google.com/document/d/1Ks7c8i5qF_QOIx9yM-nZT8VX2FwGHLJY/edit?usp=sharing&ouid=113349861854735395805&rtpof=true&sd=true" 
+                                <a href="https://drive.google.com/file/d/1srpFAplJVJj4yO4mg4zWlYO2IfZdG-Ra/view?usp=sharing" 
                                    target="_blank"
                                    rel="noopener noreferrer"
                                    class="inline-flex items-center justify-center w-full bg-gradient-to-r from-blue-600 to-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-green-700 transition shadow-xl hover:shadow-2xl transform hover:scale-105">
