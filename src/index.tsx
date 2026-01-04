@@ -699,13 +699,6 @@ app.get('/', (c) => {
                                             <div class="text-xs text-gray-600">Regions Supported</div>
                                         </div>
                                     </div>
-                                    
-                                    <!-- Website Link -->
-                                    <a href="https://global-grocery.com.ng/" target="_blank" rel="noopener noreferrer" 
-                                       class="block w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-center py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
-                                        <i class="fas fa-external-link-alt mr-2"></i>
-                                        Visit global-grocery.com.ng
-                                    </a>
                                 </div>
                             </div>
                         </div>
