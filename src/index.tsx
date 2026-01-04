@@ -533,6 +533,203 @@ app.get('/', (c) => {
             </div>
         </section>
 
+        <!-- Salesforce Architecture Diagram Section -->
+        <section class="py-20 bg-gradient-to-br from-blue-50 via-white to-green-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        <i class="fas fa-project-diagram text-blue-600 mr-2"></i>
+                        Multi-Cloud Salesforce Architecture
+                    </h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Example architecture from recent enterprise implementation integrating Sales Cloud, Service Cloud, and external systems
+                    </p>
+                </div>
+
+                <!-- Architecture Diagram -->
+                <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-blue-100">
+                    <svg viewBox="0 0 1200 800" class="w-full h-auto" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Background Grid -->
+                        <defs>
+                            <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+                            </pattern>
+                            <!-- Arrow Marker -->
+                            <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                                <polygon points="0 0, 10 3.5, 0 7" fill="#3b82f6" />
+                            </marker>
+                        </defs>
+                        <rect width="1200" height="800" fill="url(#grid)" opacity="0.3"/>
+
+                        <!-- Title -->
+                        <text x="600" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1f2937">
+                            Enterprise Salesforce Implementation Architecture
+                        </text>
+
+                        <!-- Layer 1: External Systems (Top) -->
+                        <g id="external-systems">
+                            <!-- Marketing Platform -->
+                            <rect x="50" y="100" width="180" height="80" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+                            <text x="140" y="135" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Marketing Platform</text>
+                            <text x="140" y="155" text-anchor="middle" font-size="11" fill="#92400e">Campaign Data</text>
+
+                            <!-- Email Service -->
+                            <rect x="270" y="100" width="180" height="80" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+                            <text x="360" y="135" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">Email Service</text>
+                            <text x="360" y="155" text-anchor="middle" font-size="11" fill="#1e40af">Communication</text>
+
+                            <!-- Payment Gateway -->
+                            <rect x="970" y="100" width="180" height="80" rx="8" fill="#dcfce7" stroke="#10b981" stroke-width="2"/>
+                            <text x="1060" y="135" text-anchor="middle" font-size="14" font-weight="bold" fill="#065f46">Payment Gateway</text>
+                            <text x="1060" y="155" text-anchor="middle" font-size="11" fill="#065f46">Transactions</text>
+                        </g>
+
+                        <!-- Layer 2: Integration Layer -->
+                        <g id="integration-layer">
+                            <rect x="400" y="230" width="400" height="60" rx="8" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+                            <text x="600" y="255" text-anchor="middle" font-size="16" font-weight="bold" fill="#4338ca">
+                                <tspan x="600">Integration Layer</tspan>
+                            </text>
+                            <text x="600" y="275" text-anchor="middle" font-size="11" fill="#4338ca">REST APIs | Middleware | MuleSoft</text>
+                        </g>
+
+                        <!-- Connecting Lines to Integration -->
+                        <line x1="140" y1="180" x2="500" y2="230" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowhead)"/>
+                        <line x1="360" y1="180" x2="600" y2="230" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowhead)"/>
+                        <line x1="1060" y1="180" x2="700" y2="230" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+                        <!-- Layer 3: Salesforce Core (Sales & Service Cloud) -->
+                        <g id="salesforce-core">
+                            <!-- Sales Cloud -->
+                            <rect x="100" y="350" width="450" height="200" rx="12" fill="#dbeafe" stroke="#0070D2" stroke-width="3"/>
+                            <text x="325" y="385" text-anchor="middle" font-size="20" font-weight="bold" fill="#0070D2">
+                                <tspan>☁️ Sales Cloud</tspan>
+                            </text>
+                            
+                            <!-- Sales Cloud Components -->
+                            <g id="sales-components">
+                                <!-- Leads -->
+                                <rect x="120" y="410" width="120" height="50" rx="6" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+                                <text x="180" y="433" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e40af">Leads</text>
+                                <text x="180" y="448" text-anchor="middle" font-size="9" fill="#1e40af">Scoring & Routing</text>
+
+                                <!-- Opportunities -->
+                                <rect x="260" y="410" width="120" height="50" rx="6" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+                                <text x="320" y="433" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e40af">Opportunities</text>
+                                <text x="320" y="448" text-anchor="middle" font-size="9" fill="#1e40af">Pipeline & Forecast</text>
+
+                                <!-- Accounts -->
+                                <rect x="400" y="410" width="120" height="50" rx="6" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+                                <text x="460" y="433" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e40af">Accounts</text>
+                                <text x="460" y="448" text-anchor="middle" font-size="9" fill="#1e40af">360° View</text>
+
+                                <!-- Automation -->
+                                <rect x="190" y="480" width="160" height="50" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+                                <text x="270" y="503" text-anchor="middle" font-size="12" font-weight="bold" fill="#92400e">Flow Automation</text>
+                                <text x="270" y="518" text-anchor="middle" font-size="9" fill="#92400e">Workflows & Approvals</text>
+                            </g>
+
+                            <!-- Service Cloud -->
+                            <rect x="650" y="350" width="450" height="200" rx="12" fill="#dcfce7" stroke="#10b981" stroke-width="3"/>
+                            <text x="875" y="385" text-anchor="middle" font-size="20" font-weight="bold" fill="#10b981">
+                                <tspan>☁️ Service Cloud</tspan>
+                            </text>
+
+                            <!-- Service Cloud Components -->
+                            <g id="service-components">
+                                <!-- Cases -->
+                                <rect x="670" y="410" width="120" height="50" rx="6" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+                                <text x="730" y="433" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">Cases</text>
+                                <text x="730" y="448" text-anchor="middle" font-size="9" fill="#065f46">SLA Management</text>
+
+                                <!-- Knowledge -->
+                                <rect x="810" y="410" width="120" height="50" rx="6" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+                                <text x="870" y="433" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">Knowledge Base</text>
+                                <text x="870" y="448" text-anchor="middle" font-size="9" fill="#065f46">Self-Service</text>
+
+                                <!-- Omnichannel -->
+                                <rect x="950" y="410" width="120" height="50" rx="6" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+                                <text x="1010" y="433" text-anchor="middle" font-size="12" font-weight="bold" fill="#065f46">Omnichannel</text>
+                                <text x="1010" y="448" text-anchor="middle" font-size="9" fill="#065f46">Routing & Queues</text>
+
+                                <!-- Entitlements -->
+                                <rect x="740" y="480" width="160" height="50" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+                                <text x="820" y="503" text-anchor="middle" font-size="12" font-weight="bold" fill="#92400e">Entitlements</text>
+                                <text x="820" y="518" text-anchor="middle" font-size="9" fill="#92400e">Tiers & Milestones</text>
+                            </g>
+                        </g>
+
+                        <!-- Connecting Lines from Integration to Clouds -->
+                        <line x1="600" y1="290" x2="325" y2="350" stroke="#3b82f6" stroke-width="3" marker-end="url(#arrowhead)"/>
+                        <line x1="600" y1="290" x2="875" y2="350" stroke="#3b82f6" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+                        <!-- Layer 4: Shared Services -->
+                        <g id="shared-services">
+                            <!-- Data & Security -->
+                            <rect x="200" y="600" width="300" height="120" rx="8" fill="#f3e8ff" stroke="#9333ea" stroke-width="2"/>
+                            <text x="350" y="635" text-anchor="middle" font-size="16" font-weight="bold" fill="#6b21a8">Data & Security</text>
+                            <text x="350" y="660" text-anchor="middle" font-size="11" fill="#6b21a8">• Custom Objects & Fields</text>
+                            <text x="350" y="680" text-anchor="middle" font-size="11" fill="#6b21a8">• Sharing Rules & Profiles</text>
+                            <text x="350" y="700" text-anchor="middle" font-size="11" fill="#6b21a8">• Data Validation & Quality</text>
+
+                            <!-- Analytics & Reporting -->
+                            <rect x="700" y="600" width="300" height="120" rx="8" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+                            <text x="850" y="635" text-anchor="middle" font-size="16" font-weight="bold" fill="#991b1b">Analytics & Reporting</text>
+                            <text x="850" y="660" text-anchor="middle" font-size="11" fill="#991b1b">• Custom Dashboards</text>
+                            <text x="850" y="680" text-anchor="middle" font-size="11" fill="#991b1b">• Real-Time Reports</text>
+                            <text x="850" y="700" text-anchor="middle" font-size="11" fill="#991b1b">• KPI Tracking</text>
+                        </g>
+
+                        <!-- Connecting Lines to Shared Services -->
+                        <line x1="325" y1="550" x2="350" y2="600" stroke="#9333ea" stroke-width="2" marker-end="url(#arrowhead)"/>
+                        <line x1="875" y1="550" x2="850" y2="600" stroke="#ef4444" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+                        <!-- Legend -->
+                        <g id="legend">
+                            <rect x="30" y="750" width="15" height="15" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+                            <text x="50" y="762" font-size="11" fill="#374151">Sales Cloud Components</text>
+
+                            <rect x="230" y="750" width="15" height="15" fill="#dcfce7" stroke="#10b981" stroke-width="1"/>
+                            <text x="250" y="762" font-size="11" fill="#374151">Service Cloud Components</text>
+
+                            <rect x="440" y="750" width="15" height="15" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+                            <text x="460" y="762" font-size="11" fill="#374151">Automation & Business Logic</text>
+
+                            <rect x="680" y="750" width="15" height="15" fill="#f3e8ff" stroke="#9333ea" stroke-width="1"/>
+                            <text x="700" y="762" font-size="11" fill="#374151">Shared Platform Services</text>
+                        </g>
+                    </svg>
+
+                    <!-- Architecture Highlights -->
+                    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-blue-50 rounded-lg p-4 border-l-4 border-blue-600">
+                            <h4 class="font-bold text-blue-900 mb-2 flex items-center">
+                                <i class="fas fa-exchange-alt mr-2"></i>
+                                Integration Strategy
+                            </h4>
+                            <p class="text-sm text-blue-800">REST APIs and middleware connecting external platforms with bi-directional data sync</p>
+                        </div>
+
+                        <div class="bg-green-50 rounded-lg p-4 border-l-4 border-green-600">
+                            <h4 class="font-bold text-green-900 mb-2 flex items-center">
+                                <i class="fas fa-shield-alt mr-2"></i>
+                                Security Design
+                            </h4>
+                            <p class="text-sm text-green-800">Role-based access, profiles, permission sets, and field-level security ensuring compliance</p>
+                        </div>
+
+                        <div class="bg-purple-50 rounded-lg p-4 border-l-4 border-purple-600">
+                            <h4 class="font-bold text-purple-900 mb-2 flex items-center">
+                                <i class="fas fa-cogs mr-2"></i>
+                                Automation Layer
+                            </h4>
+                            <p class="text-sm text-purple-800">Flow automation, approval processes, and workflows reducing manual work by 40%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- About Section -->
         <section id="about" class="py-20 bg-white bg-pattern relative overflow-hidden">
             <!-- Decorative Elements -->
