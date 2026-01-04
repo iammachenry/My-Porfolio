@@ -555,7 +555,7 @@ app.get('/', (c) => {
                             <div>
                                 <div class="mb-4">
                                     <div class="inline-block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-3">
-                                        🏆 Group Project | Cohort 9
+                                        Group Project | Cohort 9
                                     </div>
                                     <div class="flex items-center justify-between mb-3">
                                         <h3 class="text-3xl font-bold text-gray-900">Global Grocery: Enterprise Sales & Service Cloud Implementation</h3>
