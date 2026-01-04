@@ -559,9 +559,9 @@ app.get('/', (c) => {
                                     </div>
                                     <h3 class="text-3xl font-bold text-gray-900 mb-3">Global Grocery: Enterprise Sales & Service Cloud Implementation</h3>
                                     <div class="flex items-center space-x-3 mb-3">
-                                        <a href="https://www.GlobalGrocery.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-sm transition">
+                                        <a href="https://global-grocery.com.ng/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-sm transition">
                                             <i class="fas fa-globe mr-2"></i>
-                                            www.GlobalGrocery.com
+                                            global-grocery.com.ng
                                         </a>
                                         <span class="text-gray-400">|</span>
                                         <span class="text-sm text-gray-600"><i class="fas fa-users mr-1"></i> Collaborative Team Implementation</span>
@@ -683,10 +683,10 @@ app.get('/', (c) => {
                                     </div>
                                     
                                     <!-- Website Link -->
-                                    <a href="https://www.GlobalGrocery.com" target="_blank" rel="noopener noreferrer" 
+                                    <a href="https://global-grocery.com.ng/" target="_blank" rel="noopener noreferrer" 
                                        class="block w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-center py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
                                         <i class="fas fa-external-link-alt mr-2"></i>
-                                        Visit GlobalGrocery.com
+                                        Visit global-grocery.com.ng
                                     </a>
                                 </div>
                             </div>
