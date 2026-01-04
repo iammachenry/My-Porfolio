@@ -263,12 +263,19 @@ app.get('/', (c) => {
                         <span class="ml-3 text-xl font-bold text-gray-900">Henry Imafidon</span>
                         <span class="ml-3 hidden md:inline-block text-xs bg-blue-600 text-white px-2 py-1 rounded-full font-semibold">6X Certified</span>
                     </div>
-                    <div class="hidden md:flex space-x-8">
+                    <div class="hidden md:flex space-x-8 items-center">
                         <a href="#home" class="text-gray-700 hover:text-green-600 transition">Home</a>
                         <a href="#about" class="text-gray-700 hover:text-green-600 transition">About</a>
                         <a href="#services" class="text-gray-700 hover:text-green-600 transition">Services</a>
                         <a href="#case-studies" class="text-gray-700 hover:text-green-600 transition">Case Studies</a>
                         <a href="#contact" class="text-gray-700 hover:text-green-600 transition">Contact</a>
+                        <a href="https://docs.google.com/document/d/1Ks7c8i5qF_QOIx9yM-nZT8VX2FwGHLJY/edit?usp=sharing&ouid=113349861854735395805&rtpof=true&sd=true" 
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="bg-gradient-to-r from-green-600 to-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold inline-flex items-center hover:from-green-700 hover:to-blue-700 transition shadow-md">
+                            <i class="fas fa-file-alt mr-2"></i>
+                            Resume
+                        </a>
                     </div>
                     <button id="mobile-menu-btn" class="md:hidden text-gray-700">
                         <i class="fas fa-bars text-xl"></i>
@@ -284,6 +291,13 @@ app.get('/', (c) => {
                     <a href="#services" class="block text-gray-700 hover:text-green-600">Services</a>
                     <a href="#case-studies" class="block text-gray-700 hover:text-green-600">Case Studies</a>
                     <a href="#contact" class="block text-gray-700 hover:text-green-600">Contact</a>
+                    <a href="https://docs.google.com/document/d/1Ks7c8i5qF_QOIx9yM-nZT8VX2FwGHLJY/edit?usp=sharing&ouid=113349861854735395805&rtpof=true&sd=true" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="block bg-gradient-to-r from-green-600 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-center">
+                        <i class="fas fa-file-alt mr-2"></i>
+                        Download Resume
+                    </a>
                 </div>
             </div>
         </nav>
@@ -306,6 +320,13 @@ app.get('/', (c) => {
                             <a href="#contact" class="btn-primary text-white px-8 py-4 rounded-lg font-semibold inline-flex items-center">
                                 <i class="fas fa-calendar-check mr-2"></i>
                                 Schedule Free Consultation
+                            </a>
+                            <a href="https://docs.google.com/document/d/1Ks7c8i5qF_QOIx9yM-nZT8VX2FwGHLJY/edit?usp=sharing&ouid=113349861854735395805&rtpof=true&sd=true" 
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="bg-white text-green-600 px-8 py-4 rounded-lg font-semibold inline-flex items-center hover:bg-green-50 transition shadow-lg">
+                                <i class="fas fa-file-download mr-2"></i>
+                                Download Resume
                             </a>
                             <a href="#services" class="bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold inline-flex items-center hover:bg-white/30 transition">
                                 <i class="fas fa-arrow-down mr-2"></i>
@@ -724,6 +745,75 @@ app.get('/', (c) => {
                                 Automation Layer
                             </h4>
                             <p class="text-sm text-purple-800">Flow automation, approval processes, and workflows reducing manual work by 40%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Download CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-blue-600 via-green-600 to-blue-600">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                        <!-- Left: Text Content -->
+                        <div>
+                            <div class="inline-block bg-gradient-to-r from-blue-100 to-green-100 px-4 py-2 rounded-full mb-4">
+                                <span class="text-blue-900 font-semibold text-sm">
+                                    <i class="fas fa-file-alt mr-2"></i>
+                                    Professional Resume
+                                </span>
+                            </div>
+                            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                                Want the Full Details?
+                            </h2>
+                            <p class="text-lg text-gray-700 mb-4">
+                                Download my complete resume with detailed work history, certifications, technical skills, and project implementations.
+                            </p>
+                            <ul class="space-y-2 text-gray-700">
+                                <li class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-600 mr-3"></i>
+                                    <span>6X Salesforce Certified credentials</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-600 mr-3"></i>
+                                    <span>2+ years Salesforce Admin & Implementation</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-600 mr-3"></i>
+                                    <span>7+ years Customer Experience expertise</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-600 mr-3"></i>
+                                    <span>Complete project portfolio & achievements</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Right: Download Button & Quick Info -->
+                        <div class="text-center md:text-right">
+                            <div class="bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-8 border-2 border-blue-200">
+                                <div class="mb-6">
+                                    <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-600 to-green-600 rounded-full mb-4">
+                                        <i class="fas fa-file-pdf text-white text-3xl"></i>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-2">Resume PDF</h3>
+                                    <p class="text-sm text-gray-600">Updated January 2026</p>
+                                </div>
+
+                                <a href="https://docs.google.com/document/d/1Ks7c8i5qF_QOIx9yM-nZT8VX2FwGHLJY/edit?usp=sharing&ouid=113349861854735395805&rtpof=true&sd=true" 
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="inline-flex items-center justify-center w-full bg-gradient-to-r from-blue-600 to-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-green-700 transition shadow-xl hover:shadow-2xl transform hover:scale-105">
+                                    <i class="fas fa-download mr-3"></i>
+                                    Download Resume
+                                </a>
+
+                                <p class="text-xs text-gray-500 mt-4">
+                                    <i class="fas fa-lock mr-1"></i>
+                                    Opens in Google Docs
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
