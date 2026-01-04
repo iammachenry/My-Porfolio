@@ -146,6 +146,75 @@ app.get('/', (c) => {
             border: 4px solid white;
             box-shadow: 0 0 0 4px #10b981;
           }
+          
+          /* Animated Background Patterns */
+          .bg-pattern {
+            background-image: 
+              linear-gradient(30deg, #f0f9ff 12%, transparent 12.5%, transparent 87%, #f0f9ff 87.5%, #f0f9ff),
+              linear-gradient(150deg, #f0f9ff 12%, transparent 12.5%, transparent 87%, #f0f9ff 87.5%, #f0f9ff),
+              linear-gradient(30deg, #f0f9ff 12%, transparent 12.5%, transparent 87%, #f0f9ff 87.5%, #f0f9ff),
+              linear-gradient(150deg, #f0f9ff 12%, transparent 12.5%, transparent 87%, #f0f9ff 87.5%, #f0f9ff);
+            background-size: 80px 140px;
+            background-position: 0 0, 0 0, 40px 70px, 40px 70px;
+          }
+          
+          .pulse-slow {
+            animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          }
+          
+          @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+          }
+          
+          .slide-in-bottom {
+            animation: slideInBottom 0.5s ease-out;
+          }
+          
+          @keyframes slideInBottom {
+            from {
+              transform: translateY(30px);
+              opacity: 0;
+            }
+            to {
+              transform: translateY(0);
+              opacity: 1;
+            }
+          }
+          
+          .stat-card {
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+          }
+          
+          .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+          }
+          
+          .stat-card:hover::before {
+            left: 100%;
+          }
+          
+          .stat-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+          }
+          
+          .section-divider {
+            position: relative;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #10b981, transparent);
+            margin: 3rem auto;
+            max-width: 200px;
+          }
         </style>
     </head>
     <body class="bg-gray-50">
@@ -277,11 +346,21 @@ app.get('/', (c) => {
         </section>
 
         <!-- About Section -->
-        <section id="about" class="py-20 bg-white">
+        <section id="about" class="py-20 bg-white bg-pattern relative overflow-hidden">
+            <!-- Decorative Elements -->
+            <div class="absolute top-10 right-10 w-72 h-72 bg-green-100 rounded-full opacity-20 blur-3xl"></div>
+            <div class="absolute bottom-10 left-10 w-96 h-96 bg-blue-100 rounded-full opacity-20 blur-3xl"></div>
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16" data-aos="fade-up">
+                <div class="text-center mb-16 relative z-10" data-aos="fade-up">
+                    <div class="inline-block mb-4">
+                        <span class="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-user-circle mr-2"></i>
+                            Get to Know Me
+                        </span>
+                    </div>
                     <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-4">About Me</h2>
                     <p class="text-xl text-gray-600">Resilience, Expertise, and Deep Empathy for Teams</p>
+                    <div class="section-divider"></div>
                 </div>
                 
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -351,11 +430,23 @@ app.get('/', (c) => {
         </section>
 
         <!-- Services Section -->
-        <section id="services" class="py-20 bg-gray-50">
+        <section id="services" class="py-20 bg-gradient-to-b from-gray-50 to-white relative">
+            <!-- Decorative Background -->
+            <div class="absolute inset-0 opacity-5">
+                <div class="absolute top-0 left-1/4 w-64 h-64 bg-green-500 rounded-full blur-3xl"></div>
+                <div class="absolute bottom-0 right-1/4 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
+            </div>
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16" data-aos="fade-up">
+                <div class="text-center mb-16 relative z-10" data-aos="fade-up">
+                    <div class="inline-block mb-4">
+                        <span class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-briefcase mr-2"></i>
+                            What I Offer
+                        </span>
+                    </div>
                     <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-4">Services</h2>
                     <p class="text-xl text-gray-600">Comprehensive Salesforce Solutions That Transform Operations</p>
+                    <div class="section-divider"></div>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -543,8 +634,15 @@ app.get('/', (c) => {
         <section id="case-studies" class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16" data-aos="fade-up">
+                    <div class="inline-block mb-4">
+                        <span class="bg-gradient-to-r from-green-500 to-teal-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-star mr-2"></i>
+                            Portfolio Highlights
+                        </span>
+                    </div>
                     <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-4">Success Stories</h2>
                     <p class="text-xl text-gray-600">Real Results from Real Projects</p>
+                    <div class="section-divider"></div>
                 </div>
                 
                 <div class="space-y-12">
@@ -682,20 +780,20 @@ app.get('/', (c) => {
                                     
                                     <!-- Project Stats -->
                                     <div class="grid grid-cols-2 gap-3 mb-4">
-                                        <div class="bg-white p-3 rounded-lg shadow text-center">
-                                            <div class="text-2xl font-bold text-blue-600">6</div>
+                                        <div class="stat-card bg-white p-3 rounded-lg shadow text-center">
+                                            <div class="text-2xl font-bold text-blue-600"><i class="fas fa-clock mr-1"></i>6</div>
                                             <div class="text-xs text-gray-600">Week Timeline</div>
                                         </div>
-                                        <div class="bg-white p-3 rounded-lg shadow text-center">
-                                            <div class="text-2xl font-bold text-indigo-600">2</div>
+                                        <div class="stat-card bg-white p-3 rounded-lg shadow text-center">
+                                            <div class="text-2xl font-bold text-indigo-600"><i class="fas fa-cloud mr-1"></i>2</div>
                                             <div class="text-xs text-gray-600">Clouds Integrated</div>
                                         </div>
-                                        <div class="bg-white p-3 rounded-lg shadow text-center">
-                                            <div class="text-2xl font-bold text-purple-600">3</div>
+                                        <div class="stat-card bg-white p-3 rounded-lg shadow text-center">
+                                            <div class="text-2xl font-bold text-purple-600"><i class="fas fa-layer-group mr-1"></i>3</div>
                                             <div class="text-xs text-gray-600">Support Tiers</div>
                                         </div>
-                                        <div class="bg-white p-3 rounded-lg shadow text-center">
-                                            <div class="text-2xl font-bold text-teal-600">∞</div>
+                                        <div class="stat-card bg-white p-3 rounded-lg shadow text-center">
+                                            <div class="text-2xl font-bold text-teal-600"><i class="fas fa-globe mr-1"></i>∞</div>
                                             <div class="text-xs text-gray-600">Regions Supported</div>
                                         </div>
                                     </div>
@@ -1162,11 +1260,21 @@ app.get('/', (c) => {
         </section>
 
         <!-- Skills Section -->
-        <section class="py-20 bg-gray-50">
+        <section class="py-20 bg-gradient-to-br from-gray-50 via-blue-50 to-green-50 relative overflow-hidden">
+            <!-- Animated Background Elements -->
+            <div class="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full opacity-10 blur-3xl animate-pulse"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-green-400 to-green-600 rounded-full opacity-10 blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16" data-aos="fade-up">
+                <div class="text-center mb-16 relative z-10" data-aos="fade-up">
+                    <div class="inline-block mb-4">
+                        <span class="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-code mr-2"></i>
+                            Core Competencies
+                        </span>
+                    </div>
                     <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-4">Skills & Expertise</h2>
                     <p class="text-xl text-gray-600">Technical Excellence Meets Business Acumen</p>
+                    <div class="section-divider"></div>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -1263,8 +1371,15 @@ app.get('/', (c) => {
         <section class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16" data-aos="fade-up">
+                    <div class="inline-block mb-4">
+                        <span class="bg-gradient-to-r from-yellow-500 to-orange-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-quote-left mr-2"></i>
+                            Client Feedback
+                        </span>
+                    </div>
                     <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-4">Client Testimonials</h2>
                     <p class="text-xl text-gray-600">What Clients Say About Working With Me</p>
+                    <div class="section-divider"></div>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
