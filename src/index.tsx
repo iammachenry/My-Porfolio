@@ -549,46 +549,44 @@ app.get('/', (c) => {
                 
                 <div class="space-y-12">
                     
-                    <!-- Case Study 1 - Brightwave (Project 1) -->
+                    <!-- Case Study 1 - Global Grocery Salesforce Implementation -->
                     <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 border-2 border-blue-200" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
                                 <div class="flex items-center justify-between mb-4">
-                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce Implementation Project</h3>
-                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vSIkcOhTXmHhN_27UEODNtIsljAoLsV4G1Jgw7cCaG9nCXvqXWRoBEFrBg08ix5EA/pub?start=false&loop=false&delayms=3000" 
-                                       target="_blank" 
-                                       rel="noopener noreferrer"
-                                       class="hidden md:inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
-                                        <i class="fas fa-external-link-alt mr-2"></i>
-                                        View Case Study
-                                    </a>
+                                    <h3 class="text-3xl font-bold text-gray-900">Global Grocery: Enterprise Sales & Service Cloud Implementation</h3>
                                 </div>
+                                <p class="text-gray-700 mb-2"><strong>Client:</strong> Global Grocery (Multi-Regional Grocery Chain)</p>
+                                <p class="text-gray-700 mb-4"><strong>Challenge:</strong> Managing explosive growth across multiple regions with overwhelming sales inquiries and support requests. Sales managers struggled with multi-location team coordination, poor lead data quality causing low conversion rates, and lack of sales process visibility. Support teams faced SLA compliance issues, unqualified agent assignments, and inability to meet 3-day (general) and 8-hour (premium) resolution targets.</p>
                                 <p class="text-gray-700 mb-6 leading-relaxed">
-                                    I implemented Salesforce Sales Cloud and Service Cloud for BrightWave Electronics, a consumer electronics retail and support company with approximately 45 employees. I configured Sales Cloud to optimize lead and opportunity management, automate workflows, and enhance reporting capabilities for the sales team. I also set up Service Cloud to streamline customer support processes, improve case management, and enable seamless collaboration across departments. The project increased operational efficiency, provided better visibility into sales and support activities, and enhanced the overall customer experience.
+                                    <strong>Solution:</strong> Led comprehensive Sales Cloud and Service Cloud implementation with custom lead scoring (no AI/plugins), visual sales path guidance with stage-specific fields, multi-currency price books for international sales, campaign influence tracking, automated opportunity team splits, entitlement management with Basic/Standard/Premium tiers, milestone-based case tracking with 8-hour early warning system, automated case routing by skill, and omnichannel support (community, live chat, email-to-case, web-to-case).
                                 </p>
                                 <div class="space-y-3 mb-6">
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-blue-600 mr-3"></i>
-                                        <span class="text-gray-700"><strong>108% increase</strong> in lead conversion rate (12% → 25%)</span>
+                                        <span class="text-gray-700"><strong>Automated lead qualification</strong> with custom scoring strategy</span>
                                     </div>
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-blue-600 mr-3"></i>
-                                        <span class="text-gray-700"><strong>71% reduction</strong> in average case resolution time (3.5 days → &lt;24 hours)</span>
+                                        <span class="text-gray-700"><strong>Tiered support system</strong> with SLA enforcement and early warnings</span>
                                     </div>
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-blue-600 mr-3"></i>
-                                        <span class="text-gray-700"><strong>50% improvement</strong> in forecast accuracy (60% → 90%)</span>
+                                        <span class="text-gray-700"><strong>Multi-region sales operations</strong> with currency and forecasting automation</span>
                                     </div>
                                 </div>
                                 
-                                <!-- View Full Case Study Button -->
-                                <a href="https://docs.google.com/presentation/d/e/2PACX-1vSIkcOhTXmHhN_27UEODNtIsljAoLsV4G1Jgw7cCaG9nCXvqXWRoBEFrBg08ix5EA/pub?start=false&loop=false&delayms=3000" 
-                                   target="_blank" 
-                                   rel="noopener noreferrer"
-                                   class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
-                                    <i class="fas fa-external-link-alt mr-2"></i>
-                                    View Full Case Study Presentation
-                                </a>
+                                <!-- Key Deliverables -->
+                                <div class="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                                    <p class="text-sm font-semibold text-blue-900 mb-2">Project Deliverables:</p>
+                                    <ul class="text-sm text-gray-700 space-y-1">
+                                        <li>• Complete solution design with user stories and data model</li>
+                                        <li>• Standard Operating Procedures (SOP) documentation</li>
+                                        <li>• Training manual for business users</li>
+                                        <li>• End-to-end sales process: Lead → Opportunity → Quote → Contract</li>
+                                        <li>• Omnichannel support: Community, Live Chat, Email-to-Case, Web-to-Case</li>
+                                    </ul>
+                                </div>
                             </div>
                             
                             <div class="relative bg-gradient-to-br from-blue-100 via-blue-50 to-white rounded-xl p-8 shadow-lg overflow-hidden">
@@ -610,8 +608,12 @@ app.get('/', (c) => {
                                     <img src="/static/henry-professional.jpg" 
                                          alt="Henry Imafidon - Salesforce Professional" 
                                          class="w-64 h-64 rounded-2xl mx-auto mb-6 object-cover shadow-2xl border-4 border-blue-400">
-                                    <h4 class="text-xl font-bold text-gray-900 mb-2">Complete Project Details</h4>
-                                    <p class="text-gray-700 text-sm">View the full implementation presentation with detailed analysis, screenshots, and outcomes.</p>
+                                    <h4 class="text-xl font-bold text-gray-900 mb-2">Enterprise Implementation</h4>
+                                    <p class="text-gray-700 text-sm mb-3">Multi-region grocery chain transformation combining Sales Cloud and Service Cloud.</p>
+                                    <div class="flex items-center justify-center space-x-4 text-sm">
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-semibold">Sales Cloud</span>
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-semibold">Service Cloud</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
