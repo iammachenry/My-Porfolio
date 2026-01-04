@@ -889,7 +889,75 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     
-                    <!-- Case Study 6 - Africa Ohana -->
+                    <!-- Case Study 6 - Salesforce Project -->
+                    <div class="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-8 md:p-12 border-2 border-pink-200" data-aos="fade-up">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce Implementation Project</h3>
+                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vTMw1P6L6ithhQCljJT8u-Ie5vbofNpFBA83B08D872GoM662bU09AKeMF-SiGkgg/pub?start=false&loop=false&delayms=3000" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="hidden md:inline-flex items-center bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
+                                        <i class="fas fa-external-link-alt mr-2"></i>
+                                        View Case Study
+                                    </a>
+                                </div>
+                                <p class="text-gray-700 mb-6 leading-relaxed">
+                                    Strategic Salesforce implementation delivering comprehensive CRM transformation. Focused on improving business operations, enhancing data visibility, and creating efficient workflows that support organizational growth and improved customer engagement.
+                                </p>
+                                <div class="space-y-3 mb-6">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-pink-600 mr-3"></i>
+                                        <span class="text-gray-700">Full Salesforce platform deployment</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-pink-600 mr-3"></i>
+                                        <span class="text-gray-700">Streamlined business processes and workflows</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-pink-600 mr-3"></i>
+                                        <span class="text-gray-700">Enhanced data visibility and reporting</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- View Full Case Study Button -->
+                                <a href="https://docs.google.com/presentation/d/e/2PACX-1vTMw1P6L6ithhQCljJT8u-Ie5vbofNpFBA83B08D872GoM662bU09AKeMF-SiGkgg/pub?start=false&loop=false&delayms=3000" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="inline-flex items-center bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
+                                    <i class="fas fa-external-link-alt mr-2"></i>
+                                    View Full Case Study Presentation
+                                </a>
+                            </div>
+                            
+                            <div class="relative bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-xl p-8 shadow-lg overflow-hidden">
+                                <!-- Decorative Background Pattern -->
+                                <div class="absolute inset-0 opacity-10">
+                                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="grid6" width="40" height="40" patternUnits="userSpaceOnUse">
+                                                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#db2777" stroke-width="1"/>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#grid6)" />
+                                        <circle cx="25%" cy="35%" r="45" fill="#ec4899" opacity="0.3"/>
+                                        <circle cx="70%" cy="55%" r="55" fill="#f472b6" opacity="0.3"/>
+                                        <circle cx="80%" cy="25%" r="35" fill="#f9a8d4" opacity="0.3"/>
+                                    </svg>
+                                </div>
+                                <div class="relative z-10 text-center">
+                                    <img src="/static/henry-professional.jpg" 
+                                         alt="Henry Imafidon - Salesforce Professional" 
+                                         class="w-64 h-64 rounded-2xl mx-auto mb-6 object-cover shadow-2xl border-4 border-pink-400">
+                                    <h4 class="text-xl font-bold text-gray-900 mb-2">Complete Project Details</h4>
+                                    <p class="text-gray-700 text-sm">View the full implementation presentation with strategic insights, configuration details, and business results.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Case Study 7 - Africa Ohana -->
                     <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
