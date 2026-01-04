@@ -80,6 +80,37 @@ app.get('/', (c) => {
             background: linear-gradient(135deg, #00A1E0 0%, #0070D2 100%);
           }
           
+          /* Salesforce Brand Colors */
+          .sf-ohana {
+            background: linear-gradient(135deg, #032D60 0%, #0070D2 100%);
+          }
+          
+          .sf-astro {
+            position: relative;
+          }
+          
+          /* Salesforce Cloud Icons Animation */
+          .cloud-float {
+            animation: cloudFloat 6s ease-in-out infinite;
+          }
+          
+          @keyframes cloudFloat {
+            0%, 100% { transform: translateX(0) translateY(0); }
+            25% { transform: translateX(10px) translateY(-5px); }
+            50% { transform: translateX(20px) translateY(0); }
+            75% { transform: translateX(10px) translateY(5px); }
+          }
+          
+          .sf-badge {
+            background: linear-gradient(135deg, #0070D2, #00A1E0);
+            border: 3px solid white;
+            box-shadow: 0 4px 12px rgba(0, 112, 210, 0.3);
+          }
+          
+          .trailhead-badge {
+            background: linear-gradient(135deg, #00A1E0, #3BCEAC);
+          }
+          
           .card-hover {
             transition: all 0.3s ease;
           }
@@ -220,12 +251,17 @@ app.get('/', (c) => {
     <body class="bg-gray-50">
         
         <!-- Navigation -->
-        <nav class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+        <nav class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b-4 border-blue-600">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-16">
                     <div class="flex items-center">
-                        <i class="fas fa-cloud text-3xl gradient-text"></i>
+                        <!-- Salesforce-style Cloud Icon -->
+                        <div class="relative">
+                            <i class="fas fa-cloud text-3xl text-blue-600"></i>
+                            <div class="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                        </div>
                         <span class="ml-3 text-xl font-bold text-gray-900">Henry Imafidon</span>
+                        <span class="ml-3 hidden md:inline-block text-xs bg-blue-600 text-white px-2 py-1 rounded-full font-semibold">6X Certified</span>
                     </div>
                     <div class="hidden md:flex space-x-8">
                         <a href="#home" class="text-gray-700 hover:text-green-600 transition">Home</a>
@@ -295,12 +331,18 @@ app.get('/', (c) => {
                     </div>
                     
                     <div class="relative" data-aos="fade-left">
-                        <div class="floating">
-                            <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
+                        <!-- Salesforce Clouds Floating Background -->
+                        <div class="absolute inset-0 opacity-20">
+                            <i class="fas fa-cloud text-white text-6xl absolute top-10 left-5 cloud-float" style="animation-delay: 0s;"></i>
+                            <i class="fas fa-cloud text-white text-4xl absolute top-32 right-10 cloud-float" style="animation-delay: 2s;"></i>
+                            <i class="fas fa-cloud text-white text-5xl absolute bottom-20 left-20 cloud-float" style="animation-delay: 4s;"></i>
+                        </div>
+                        <div class="floating relative z-10">
+                            <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 shadow-2xl">
                                 <div class="space-y-6">
                                     <div class="flex items-center space-x-4">
-                                        <div class="w-16 h-16 bg-yellow-300 rounded-full flex items-center justify-center">
-                                            <i class="fas fa-certificate text-green-600 text-2xl"></i>
+                                        <div class="w-16 h-16 sf-badge rounded-full flex items-center justify-center pulse-slow">
+                                            <i class="fas fa-cloud text-white text-2xl"></i>
                                         </div>
                                         <div>
                                             <h3 class="text-white font-bold text-lg">6X Salesforce Certified</h3>
@@ -382,21 +424,29 @@ app.get('/', (c) => {
                     <div data-aos="fade-left">
                         <h3 class="text-2xl font-bold text-gray-900 mb-6">6X Salesforce Certified Professional</h3>
                         <div class="grid grid-cols-2 gap-4 mb-8">
-                            <div class="certification-badge rounded-xl p-6 text-center">
-                                <i class="fas fa-certificate text-4xl text-green-600 mb-3"></i>
+                            <div class="certification-badge rounded-xl p-6 text-center relative overflow-hidden group">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-400 opacity-0 group-hover:opacity-10 transition-opacity"></div>
+                                <i class="fas fa-cloud text-4xl text-blue-600 mb-3"></i>
                                 <h4 class="font-bold text-gray-900 text-sm">Certified Administrator</h4>
+                                <div class="mt-2 text-xs text-gray-500">Salesforce</div>
                             </div>
-                            <div class="certification-badge rounded-xl p-6 text-center">
-                                <i class="fas fa-award text-4xl text-green-600 mb-3"></i>
+                            <div class="certification-badge rounded-xl p-6 text-center relative overflow-hidden group">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-400 opacity-0 group-hover:opacity-10 transition-opacity"></div>
+                                <i class="fas fa-handshake text-4xl text-blue-600 mb-3"></i>
                                 <h4 class="font-bold text-gray-900 text-sm">Implementation Consultant</h4>
+                                <div class="mt-2 text-xs text-gray-500">Salesforce</div>
                             </div>
-                            <div class="certification-badge rounded-xl p-6 text-center">
-                                <i class="fas fa-medal text-4xl text-green-600 mb-3"></i>
+                            <div class="certification-badge rounded-xl p-6 text-center relative overflow-hidden group">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-400 opacity-0 group-hover:opacity-10 transition-opacity"></div>
+                                <i class="fas fa-users text-4xl text-blue-600 mb-3"></i>
                                 <h4 class="font-bold text-gray-900 text-sm">CX Professional</h4>
+                                <div class="mt-2 text-xs text-gray-500">Salesforce</div>
                             </div>
-                            <div class="certification-badge rounded-xl p-6 text-center">
-                                <i class="fas fa-trophy text-4xl text-green-600 mb-3"></i>
+                            <div class="certification-badge rounded-xl p-6 text-center relative overflow-hidden group">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-600 to-teal-400 opacity-0 group-hover:opacity-10 transition-opacity"></div>
+                                <i class="fas fa-star text-4xl text-blue-600 mb-3"></i>
                                 <h4 class="font-bold text-gray-900 text-sm">6X Certified</h4>
+                                <div class="mt-2 text-xs text-gray-500">Trailhead</div>
                             </div>
                         </div>
                         
@@ -1279,11 +1329,15 @@ app.get('/', (c) => {
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     
-                    <div class="bg-white rounded-2xl p-8" data-aos="fade-up" data-aos-delay="100">
-                        <div class="w-16 h-16 salesforce-blue rounded-xl flex items-center justify-center mb-6">
+                    <div class="bg-white rounded-2xl p-8 relative overflow-hidden group" data-aos="fade-up" data-aos-delay="100">
+                        <!-- Salesforce Cloud Pattern Background -->
+                        <div class="absolute top-0 right-0 opacity-5">
+                            <i class="fas fa-cloud text-blue-600 text-9xl"></i>
+                        </div>
+                        <div class="w-16 h-16 salesforce-blue rounded-xl flex items-center justify-center mb-6 relative z-10 shadow-lg">
                             <i class="fas fa-cloud text-white text-2xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-4">Salesforce Platforms</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4 relative z-10">Salesforce Platforms</h3>
                         <ul class="space-y-2 text-gray-700">
                             <li class="flex items-center">
                                 <i class="fas fa-angle-right text-purple-600 mr-2"></i>
@@ -1539,7 +1593,10 @@ app.get('/', (c) => {
                     </div>
                     
                     <div>
-                        <h4 class="font-bold mb-4">Quick Links</h4>
+                        <h4 class="font-bold mb-4 flex items-center">
+                            <i class="fas fa-link mr-2 text-green-500"></i>
+                            Quick Links
+                        </h4>
                         <ul class="space-y-2 text-gray-400">
                             <li><a href="#home" class="hover:text-white transition">Home</a></li>
                             <li><a href="#about" class="hover:text-white transition">About</a></li>
@@ -1550,7 +1607,10 @@ app.get('/', (c) => {
                     </div>
                     
                     <div>
-                        <h4 class="font-bold mb-4">Services</h4>
+                        <h4 class="font-bold mb-4 flex items-center">
+                            <i class="fas fa-briefcase mr-2 text-green-500"></i>
+                            Services
+                        </h4>
                         <ul class="space-y-2 text-gray-400">
                             <li>Administration</li>
                             <li>Workflow Automation</li>
@@ -1562,7 +1622,14 @@ app.get('/', (c) => {
                 </div>
                 
                 <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
-                    <p>&copy; 2026 Henry Imafidon. All rights reserved. Built with passion for Salesforce excellence.</p>
+                    <div class="flex items-center justify-center space-x-4">
+                        <p>&copy; 2026 Henry Imafidon. All rights reserved.</p>
+                        <span class="text-gray-600">|</span>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-cloud text-blue-500"></i>
+                            <span class="text-gray-400">Built with passion for Salesforce excellence</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
