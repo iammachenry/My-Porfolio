@@ -617,11 +617,11 @@ app.get('/', (c) => {
                                             Business Impact
                                         </p>
                                         <ul class="text-xs text-gray-700 space-y-1">
-                                            <li>📈 Enhanced lead conversion rates</li>
-                                            <li>⚡ 3-day & 8-hour SLA compliance</li>
-                                            <li>🌍 Multi-region scalability</li>
-                                            <li>💰 Automated commission splits</li>
-                                            <li>🎯 Real-time forecasting</li>
+                                            <li>✓ Enhanced lead conversion rates</li>
+                                            <li>✓ 3-day & 8-hour SLA compliance</li>
+                                            <li>✓ Multi-region scalability</li>
+                                            <li>✓ Automated commission splits</li>
+                                            <li>✓ Real-time forecasting</li>
                                         </ul>
                                     </div>
                                 </div>
