@@ -970,6 +970,25 @@ app.get('/', (c) => {
                                     </ul>
                                 </div>
                                 
+                                <!-- Technology Stack -->
+                                <div class="mt-4 flex flex-wrap gap-2">
+                                    <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-cloud mr-1"></i> Sales Cloud
+                                    </span>
+                                    <span class="bg-pink-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-headset mr-1"></i> Service Cloud
+                                    </span>
+                                    <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-database mr-1"></i> Data Migration
+                                    </span>
+                                    <span class="bg-purple-700 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-bolt mr-1"></i> Flow Automation
+                                    </span>
+                                    <span class="bg-pink-700 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-chart-bar mr-1"></i> Dashboards
+                                    </span>
+                                </div>
+                                
                                 <a href="https://docs.google.com/presentation/d/e/2PACX-1vQybzqGFIzMlzUjOvkorx1-SDYImCzQDe-mE_Qi074L0fIVy451QMxaFLi6maYdAg/pub?start=true&loop=true&delayms=3000" 
                                    target="_blank" 
                                    rel="noopener noreferrer"
@@ -1035,6 +1054,25 @@ app.get('/', (c) => {
                                         <i class="fas fa-check-circle text-teal-600 mr-3"></i>
                                         <span class="text-gray-700">Real-time dashboards and sales analytics</span>
                                     </div>
+                                </div>
+                                
+                                <!-- Technology Stack -->
+                                <div class="mt-4 flex flex-wrap gap-2 mb-6">
+                                    <span class="bg-teal-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-cloud mr-1"></i> Sales Cloud
+                                    </span>
+                                    <span class="bg-cyan-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-user-tie mr-1"></i> Lead Management
+                                    </span>
+                                    <span class="bg-teal-700 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-funnel-dollar mr-1"></i> Opportunity Tracking
+                                    </span>
+                                    <span class="bg-cyan-700 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-bolt mr-1"></i> Sales Automation
+                                    </span>
+                                    <span class="bg-teal-800 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-chart-line mr-1"></i> Analytics
+                                    </span>
                                 </div>
                                 
                                 <!-- View Full Case Study Button -->
@@ -1105,6 +1143,25 @@ app.get('/', (c) => {
                                     </div>
                                 </div>
                                 
+                                <!-- Technology Stack -->
+                                <div class="mt-4 flex flex-wrap gap-2 mb-6">
+                                    <span class="bg-orange-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-cloud mr-1"></i> Sales Cloud
+                                    </span>
+                                    <span class="bg-amber-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-headset mr-1"></i> Service Cloud
+                                    </span>
+                                    <span class="bg-orange-700 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-cogs mr-1"></i> Process Automation
+                                    </span>
+                                    <span class="bg-amber-700 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-users-cog mr-1"></i> User Management
+                                    </span>
+                                    <span class="bg-orange-800 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-shield-alt mr-1"></i> Security Design
+                                    </span>
+                                </div>
+                                
                                 <!-- View Full Case Study Button -->
                                 <a href="https://docs.google.com/presentation/d/e/2PACX-1vQt781ixR-LUGftgfOCWjPGWbVwKYuCNiGxO7ZBu9RpFR182-KWB3Is3tOcqCnhHA/pub?start=false&loop=false&delayms=3000" 
                                    target="_blank" 
@@ -1173,6 +1230,25 @@ app.get('/', (c) => {
                                     </div>
                                 </div>
                                 
+                                <!-- Technology Stack -->
+                                <div class="mt-4 flex flex-wrap gap-2 mb-6">
+                                    <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-headset mr-1"></i> Service Cloud
+                                    </span>
+                                    <span class="bg-violet-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-ticket-alt mr-1"></i> Case Management
+                                    </span>
+                                    <span class="bg-indigo-700 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-route mr-1"></i> Case Routing
+                                    </span>
+                                    <span class="bg-violet-700 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-book mr-1"></i> Knowledge Base
+                                    </span>
+                                    <span class="bg-indigo-800 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-shield-alt mr-1"></i> SLA Management
+                                    </span>
+                                </div>
+                                
                                 <!-- View Full Case Study Button -->
                                 <a href="https://docs.google.com/presentation/d/e/2PACX-1vTrS1DFbFbbEhp1CmrDadgUyZJtk0DO2v1QKEk_GFYMzlI2EN_rF_NvMcB8-t-u-Q/pub?start=false&loop=false&delayms=3000" 
                                    target="_blank" 
@@ -1239,6 +1315,25 @@ app.get('/', (c) => {
                                         <i class="fas fa-check-circle text-pink-600 mr-3"></i>
                                         <span class="text-gray-700">Streamlined support processes and response times</span>
                                     </div>
+                                </div>
+                                
+                                <!-- Technology Stack -->
+                                <div class="mt-4 flex flex-wrap gap-2 mb-6">
+                                    <span class="bg-pink-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-users mr-1"></i> Customer Experience
+                                    </span>
+                                    <span class="bg-rose-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-comments mr-1"></i> Journey Mapping
+                                    </span>
+                                    <span class="bg-pink-700 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-smile mr-1"></i> Satisfaction Tracking
+                                    </span>
+                                    <span class="bg-rose-700 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-chart-bar mr-1"></i> CX Analytics
+                                    </span>
+                                    <span class="bg-pink-800 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-bolt mr-1"></i> Process Optimization
+                                    </span>
                                 </div>
                                 
                                 <!-- View Full Case Study Button -->
