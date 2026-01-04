@@ -579,7 +579,7 @@ app.get('/', (c) => {
                                 <p class="text-gray-700 mb-2"><strong>Client:</strong> Global Grocery (Multi-Regional Grocery Chain)</p>
                                 <p class="text-gray-700 mb-4"><strong>Challenge:</strong> Managing explosive growth across multiple regions with overwhelming sales inquiries and support requests. Sales managers struggled with multi-location team coordination, poor lead data quality causing low conversion rates, and lack of sales process visibility. Support teams faced SLA compliance issues, unqualified agent assignments, and inability to meet 3-day (general) and 8-hour (premium) resolution targets.</p>
                                 <p class="text-gray-700 mb-6 leading-relaxed">
-                                    <strong>Solution:</strong> Led comprehensive Sales Cloud and Service Cloud implementation with custom lead scoring (no AI/plugins), visual sales path guidance with stage-specific fields, multi-currency price books for international sales, campaign influence tracking, automated opportunity team splits, entitlement management with Basic/Standard/Premium tiers, milestone-based case tracking with 8-hour early warning system, automated case routing by skill, and omnichannel support (community, live chat, email-to-case, web-to-case).
+                                    <strong>Solution:</strong> Led comprehensive Sales Cloud and Service Cloud implementation with custom lead scoring strategy, visual sales path guidance with stage-specific fields, multi-currency price books for international sales, campaign influence tracking, automated opportunity team splits, entitlement management with Basic/Standard/Premium tiers, milestone-based case tracking with 8-hour early warning system, automated case routing by skill, and omnichannel support (community, live chat, email-to-case, web-to-case).
                                 </p>
                                 <div class="space-y-3 mb-6">
                                     <div class="flex items-center">
@@ -1192,10 +1192,7 @@ app.get('/', (c) => {
                                 <i class="fas fa-angle-right text-purple-600 mr-2"></i>
                                 Service Cloud
                             </li>
-                            <li class="flex items-center">
-                                <i class="fas fa-angle-right text-purple-600 mr-2"></i>
-                                Agentforce
-                            </li>
+
                             <li class="flex items-center">
                                 <i class="fas fa-angle-right text-purple-600 mr-2"></i>
                                 NPSP (Nonprofit)
