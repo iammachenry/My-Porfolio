@@ -557,7 +557,16 @@ app.get('/', (c) => {
                                     <div class="inline-block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-3">
                                         🏆 Group Project | Cohort 9
                                     </div>
-                                    <h3 class="text-3xl font-bold text-gray-900 mb-3">Global Grocery: Enterprise Sales & Service Cloud Implementation</h3>
+                                    <div class="flex items-center justify-between mb-3">
+                                        <h3 class="text-3xl font-bold text-gray-900">Global Grocery: Enterprise Sales & Service Cloud Implementation</h3>
+                                        <a href="https://docs.google.com/presentation/d/e/2PACX-1vT31Lz-YbP0Y7dGHyD2Hyt7yaL7QMKg7HbMLFr1ZtUwYfWsxN5YL92sCBdwoI5FCQ/pub?start=false&loop=false&delayms=3000" 
+                                           target="_blank" 
+                                           rel="noopener noreferrer"
+                                           class="hidden md:inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
+                                            <i class="fas fa-external-link-alt mr-2"></i>
+                                            View Case Study
+                                        </a>
+                                    </div>
                                     <div class="flex items-center space-x-3 mb-3">
                                         <a href="https://global-grocery.com.ng/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-sm transition">
                                             <i class="fas fa-globe mr-2"></i>
@@ -635,6 +644,15 @@ app.get('/', (c) => {
                                         <i class="fas fa-shield-alt mr-1"></i> SLA Management
                                     </span>
                                 </div>
+                                
+                                <!-- View Full Case Study Button (Mobile) -->
+                                <a href="https://docs.google.com/presentation/d/e/2PACX-1vT31Lz-YbP0Y7dGHyD2Hyt7yaL7QMKg7HbMLFr1ZtUwYfWsxN5YL92sCBdwoI5FCQ/pub?start=false&loop=false&delayms=3000" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="mt-4 inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
+                                    <i class="fas fa-external-link-alt mr-2"></i>
+                                    View Full Case Study Presentation
+                                </a>
                             </div>
                             
                             <div class="relative bg-gradient-to-br from-blue-100 via-blue-50 to-white rounded-xl p-8 shadow-lg overflow-hidden">
