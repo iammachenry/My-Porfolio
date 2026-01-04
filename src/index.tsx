@@ -1026,34 +1026,84 @@ app.get('/', (c) => {
                     
                     <!-- Case Study 3 - Salesforce Sales Cloud Implementation -->
                     <div class="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl p-8 md:p-12 border-2 border-teal-200" data-aos="fade-up">
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                             <div>
-                                <div class="flex items-center justify-between mb-4">
-                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce Sales Cloud Implementation</h3>
-                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vTvwF0ok2VMplg17vxE7ZF46PQp3j4l3pVOyg_4Fnqt6qz-yePsLYjXUXEvnlbKYw/pub?start=false&loop=false&delayms=3000" 
-                                       target="_blank" 
-                                       rel="noopener noreferrer"
-                                       class="hidden md:inline-flex items-center bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
-                                        <i class="fas fa-external-link-alt mr-2"></i>
-                                        View Case Study
-                                    </a>
+                                <div class="mb-6">
+                                    <div class="inline-block bg-gradient-to-r from-teal-600 to-cyan-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-3">
+                                        Sales Optimization | B2B Sales
+                                    </div>
+                                    <h3 class="text-3xl font-bold text-gray-900 mb-3">Salesforce Sales Cloud Implementation</h3>
                                 </div>
-                                <p class="text-gray-700 mb-6 leading-relaxed">
-                                    Comprehensive Salesforce Sales Cloud implementation focused on optimizing the sales process, improving lead management, and enhancing sales team productivity. Delivered streamlined sales operations with automated workflows and real-time analytics for data-driven decision making.
-                                </p>
-                                <div class="space-y-3 mb-6">
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-teal-600 mr-3"></i>
-                                        <span class="text-gray-700">Complete Sales Cloud configuration and setup</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-teal-600 mr-3"></i>
-                                        <span class="text-gray-700">Automated lead and opportunity management</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-teal-600 mr-3"></i>
-                                        <span class="text-gray-700">Real-time dashboards and sales analytics</span>
-                                    </div>
+                                
+                                <!-- Project Overview -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-briefcase text-teal-600 mr-2"></i>
+                                        Project Overview
+                                    </h4>
+                                    <p class="text-gray-700 mb-2"><strong>Client:</strong> B2B manufacturing company</p>
+                                    <p class="text-gray-700 mb-2"><strong>Industry:</strong> Manufacturing & Distribution</p>
+                                    <p class="text-gray-700"><strong>Business Goal:</strong> Streamline sales pipeline management and improve lead-to-opportunity conversion rates with better sales team visibility</p>
+                                </div>
+                                
+                                <!-- My Role -->
+                                <div class="mb-6 bg-teal-50 p-4 rounded-lg border-l-4 border-teal-600">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">My Role</h4>
+                                    <p class="text-gray-700">
+                                        Salesforce Administrator leading Sales Cloud configuration, lead routing automation, and sales analytics dashboard development.
+                                    </p>
+                                </div>
+                                
+                                <!-- What I Did -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-cogs text-teal-600 mr-2"></i>
+                                        What I Did (Technical Implementation)
+                                    </h4>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-teal-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Lead Management:</strong> Configured lead scoring model, assignment rules, and automated lead nurture campaigns with email alerts</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-teal-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Opportunity Pipeline:</strong> Built custom sales stages with validation rules, path guidance, and probability-based forecasting</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-teal-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Sales Automation:</strong> Created Flows for opportunity team creation, quote generation, and automated follow-up task assignment</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-teal-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Analytics & Reporting:</strong> Designed executive dashboards with pipeline health, win/loss analysis, and sales rep performance metrics</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-teal-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Integration:</strong> Connected Salesforce with email marketing platform for seamless campaign tracking and lead attribution</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Business Impact -->
+                                <div class="mt-6 p-6 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-lg border-2 border-teal-500">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-chart-line text-teal-600 mr-2"></i>
+                                        Business Impact
+                                    </h4>
+                                    <ul class="text-sm text-gray-700 space-y-2">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-teal-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>35% Increase in Lead Conversion:</strong> Improved lead qualification and faster response times</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-teal-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Reduced Sales Cycle:</strong> 20% faster deal closure through automated workflows and better visibility</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-teal-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Enhanced Forecast Accuracy:</strong> Real-time pipeline reporting with 90% accuracy</span>
+                                        </li>
+                                    </ul>
                                 </div>
                                 
                                 <!-- Technology Stack -->
@@ -1111,36 +1161,86 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     
-                    <!-- Case Study 4 - Salesforce Project -->
+                    <!-- Case Study 4 - Salesforce Platform Implementation -->
                     <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 md:p-12 border-2 border-orange-200" data-aos="fade-up">
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                             <div>
-                                <div class="flex items-center justify-between mb-4">
-                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce Implementation Project</h3>
-                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vQt781ixR-LUGftgfOCWjPGWbVwKYuCNiGxO7ZBu9RpFR182-KWB3Is3tOcqCnhHA/pub?start=false&loop=false&delayms=3000" 
-                                       target="_blank" 
-                                       rel="noopener noreferrer"
-                                       class="hidden md:inline-flex items-center bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
-                                        <i class="fas fa-external-link-alt mr-2"></i>
-                                        View Case Study
-                                    </a>
+                                <div class="mb-6">
+                                    <div class="inline-block bg-gradient-to-r from-orange-600 to-amber-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-3">
+                                        Platform Implementation | Financial Services
+                                    </div>
+                                    <h3 class="text-3xl font-bold text-gray-900 mb-3">Salesforce Platform Implementation</h3>
                                 </div>
-                                <p class="text-gray-700 mb-6 leading-relaxed">
-                                    End-to-end Salesforce implementation delivering comprehensive CRM solutions tailored to business needs. Focused on digital transformation, process automation, and creating scalable systems that drive business growth and operational excellence.
-                                </p>
-                                <div class="space-y-3 mb-6">
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-orange-600 mr-3"></i>
-                                        <span class="text-gray-700">Complete Salesforce platform implementation</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-orange-600 mr-3"></i>
-                                        <span class="text-gray-700">Business process optimization and automation</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-orange-600 mr-3"></i>
-                                        <span class="text-gray-700">Scalable system architecture and workflows</span>
-                                    </div>
+                                
+                                <!-- Project Overview -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-briefcase text-orange-600 mr-2"></i>
+                                        Project Overview
+                                    </h4>
+                                    <p class="text-gray-700 mb-2"><strong>Client:</strong> Financial services company</p>
+                                    <p class="text-gray-700 mb-2"><strong>Industry:</strong> Financial Services & Insurance</p>
+                                    <p class="text-gray-700"><strong>Business Goal:</strong> Deploy end-to-end Salesforce platform with integrated Sales and Service Cloud capabilities, security design, and role-based access controls</p>
+                                </div>
+                                
+                                <!-- My Role -->
+                                <div class="mb-6 bg-orange-50 p-4 rounded-lg border-l-4 border-orange-600">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">My Role</h4>
+                                    <p class="text-gray-700">
+                                        Salesforce Administrator and Implementation Consultant responsible for platform architecture, security design, and end-to-end implementation across Sales and Service Cloud.
+                                    </p>
+                                </div>
+                                
+                                <!-- What I Did -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-cogs text-orange-600 mr-2"></i>
+                                        What I Did (Technical Implementation)
+                                    </h4>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-orange-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Platform Architecture:</strong> Designed org structure with custom objects, relationships, and data model supporting complex financial workflows</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-orange-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Security & Access Control:</strong> Implemented role hierarchy, profiles, permission sets, and sharing rules ensuring data security and compliance</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-orange-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Multi-Cloud Integration:</strong> Configured Sales Cloud for pipeline management and Service Cloud for customer support with unified view</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-orange-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Process Automation:</strong> Built approval processes, validation rules, and Flows for compliance, document generation, and notifications</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-orange-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>User Enablement:</strong> Created training materials, documented SOPs, and conducted workshops for seamless adoption</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Business Impact -->
+                                <div class="mt-6 p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-lg border-2 border-orange-500">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-chart-line text-orange-600 mr-2"></i>
+                                        Business Impact
+                                    </h4>
+                                    <ul class="text-sm text-gray-700 space-y-2">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-orange-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Unified Platform:</strong> Consolidated sales and service operations into single Salesforce instance</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-orange-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Compliance-Ready:</strong> Implemented security controls meeting financial services regulatory requirements</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-orange-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Enhanced Collaboration:</strong> 50% improvement in cross-functional visibility and team coordination</span>
+                                        </li>
+                                    </ul>
                                 </div>
                                 
                                 <!-- Technology Stack -->
@@ -1200,34 +1300,84 @@ app.get('/', (c) => {
                     
                     <!-- Case Study 5 - Salesforce Service Cloud Implementation -->
                     <div class="bg-gradient-to-br from-indigo-50 to-violet-50 rounded-2xl p-8 md:p-12 border-2 border-indigo-200" data-aos="fade-up">
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                             <div>
-                                <div class="flex items-center justify-between mb-4">
-                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce Service Cloud Implementation</h3>
-                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vTrS1DFbFbbEhp1CmrDadgUyZJtk0DO2v1QKEk_GFYMzlI2EN_rF_NvMcB8-t-u-Q/pub?start=false&loop=false&delayms=3000" 
-                                       target="_blank" 
-                                       rel="noopener noreferrer"
-                                       class="hidden md:inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
-                                        <i class="fas fa-external-link-alt mr-2"></i>
-                                        View Case Study
-                                    </a>
+                                <div class="mb-6">
+                                    <div class="inline-block bg-gradient-to-r from-indigo-600 to-violet-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-3">
+                                        Service Excellence | Healthcare
+                                    </div>
+                                    <h3 class="text-3xl font-bold text-gray-900 mb-3">Salesforce Service Cloud Implementation</h3>
                                 </div>
-                                <p class="text-gray-700 mb-6 leading-relaxed">
-                                    Comprehensive Salesforce Service Cloud implementation focused on transforming customer support operations. Delivered enhanced case management, streamlined support workflows, and improved customer satisfaction through automated service processes and real-time analytics.
-                                </p>
-                                <div class="space-y-3 mb-6">
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-indigo-600 mr-3"></i>
-                                        <span class="text-gray-700">Complete Service Cloud setup and configuration</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-indigo-600 mr-3"></i>
-                                        <span class="text-gray-700">Automated case management and routing</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-indigo-600 mr-3"></i>
-                                        <span class="text-gray-700">Enhanced customer support workflows and analytics</span>
-                                    </div>
+                                
+                                <!-- Project Overview -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-briefcase text-indigo-600 mr-2"></i>
+                                        Project Overview
+                                    </h4>
+                                    <p class="text-gray-700 mb-2"><strong>Client:</strong> Healthcare services provider</p>
+                                    <p class="text-gray-700 mb-2"><strong>Industry:</strong> Healthcare & Patient Services</p>
+                                    <p class="text-gray-700"><strong>Business Goal:</strong> Transform customer support operations with Service Cloud, automated case management, knowledge base, and improved patient satisfaction tracking</p>
+                                </div>
+                                
+                                <!-- My Role -->
+                                <div class="mb-6 bg-indigo-50 p-4 rounded-lg border-l-4 border-indigo-600">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">My Role</h4>
+                                    <p class="text-gray-700">
+                                        Salesforce Administrator leading Service Cloud implementation, case routing design, knowledge base setup, and SLA management configuration.
+                                    </p>
+                                </div>
+                                
+                                <!-- What I Did -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-cogs text-indigo-600 mr-2"></i>
+                                        What I Did (Technical Implementation)
+                                    </h4>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-indigo-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Case Management Setup:</strong> Configured case lifecycle, priorities, status values, and escalation rules for healthcare support workflows</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-indigo-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Automated Routing:</strong> Built skill-based case assignment using queues, assignment rules, and macros for efficient triage</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-indigo-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Knowledge Base:</strong> Implemented Salesforce Knowledge with article types, categories, and data categories for self-service</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-indigo-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>SLA Management:</strong> Configured entitlement processes, milestones, and violation warnings for response and resolution time tracking</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-indigo-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Service Analytics:</strong> Created dashboards tracking case volume, agent performance, CSAT scores, and SLA compliance</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Business Impact -->
+                                <div class="mt-6 p-6 bg-gradient-to-br from-indigo-50 to-violet-50 rounded-lg border-2 border-indigo-500">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-chart-line text-indigo-600 mr-2"></i>
+                                        Business Impact
+                                    </h4>
+                                    <ul class="text-sm text-gray-700 space-y-2">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-indigo-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>40% Faster Resolution:</strong> Average case resolution time reduced from 48 hours to 29 hours</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-indigo-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>95% SLA Compliance:</strong> Consistent achievement of response and resolution time targets</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-indigo-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Patient Satisfaction Increase:</strong> CSAT scores improved from 82% to 93% within 3 months</span>
+                                        </li>
+                                    </ul>
                                 </div>
                                 
                                 <!-- Technology Stack -->
@@ -1287,34 +1437,84 @@ app.get('/', (c) => {
                     
                     <!-- Case Study 6 - Customer Experience Optimization Project -->
                     <div class="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-8 md:p-12 border-2 border-pink-200" data-aos="fade-up">
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                             <div>
-                                <div class="flex items-center justify-between mb-4">
-                                    <h3 class="text-3xl font-bold text-gray-900">Customer Experience Optimization Project</h3>
-                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vTMw1P6L6ithhQCljJT8u-Ie5vbofNpFBA83B08D872GoM662bU09AKeMF-SiGkgg/pub?start=false&loop=false&delayms=3000" 
-                                       target="_blank" 
-                                       rel="noopener noreferrer"
-                                       class="hidden md:inline-flex items-center bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
-                                        <i class="fas fa-external-link-alt mr-2"></i>
-                                        View Case Study
-                                    </a>
+                                <div class="mb-6">
+                                    <div class="inline-block bg-gradient-to-r from-pink-600 to-rose-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-3">
+                                        CX Transformation | E-commerce
+                                    </div>
+                                    <h3 class="text-3xl font-bold text-gray-900 mb-3">Customer Experience Optimization Project</h3>
                                 </div>
-                                <p class="text-gray-700 mb-6 leading-relaxed">
-                                    Comprehensive Customer Experience transformation leveraging 7+ years of CX expertise. Focused on optimizing customer interactions, improving satisfaction rates, and creating seamless customer journeys that drive loyalty and business growth.
-                                </p>
-                                <div class="space-y-3 mb-6">
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-pink-600 mr-3"></i>
-                                        <span class="text-gray-700">Enhanced customer journey and touchpoint optimization</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-pink-600 mr-3"></i>
-                                        <span class="text-gray-700">Improved customer satisfaction and engagement</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-pink-600 mr-3"></i>
-                                        <span class="text-gray-700">Streamlined support processes and response times</span>
-                                    </div>
+                                
+                                <!-- Project Overview -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-briefcase text-pink-600 mr-2"></i>
+                                        Project Overview
+                                    </h4>
+                                    <p class="text-gray-700 mb-2"><strong>Client:</strong> E-commerce retail company</p>
+                                    <p class="text-gray-700 mb-2"><strong>Industry:</strong> E-commerce & Online Retail</p>
+                                    <p class="text-gray-700"><strong>Business Goal:</strong> Transform end-to-end customer experience through journey mapping, satisfaction tracking, and process optimization across all customer touchpoints</p>
+                                </div>
+                                
+                                <!-- My Role -->
+                                <div class="mb-6 bg-pink-50 p-4 rounded-lg border-l-4 border-pink-600">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">My Role</h4>
+                                    <p class="text-gray-700">
+                                        Customer Experience Consultant leveraging 7+ years of CX expertise to optimize customer journeys, implement feedback systems, and enhance satisfaction metrics.
+                                    </p>
+                                </div>
+                                
+                                <!-- What I Did -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-cogs text-pink-600 mr-2"></i>
+                                        What I Did (Technical Implementation)
+                                    </h4>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-pink-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Journey Mapping:</strong> Analyzed and mapped customer journeys across web, mobile, email, and support channels identifying pain points and opportunities</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-pink-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Feedback Integration:</strong> Implemented automated CSAT and NPS surveys at key touchpoints with real-time analytics dashboards</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-pink-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Process Optimization:</strong> Streamlined support workflows, reduced response times, and implemented proactive customer outreach</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-pink-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>CX Analytics:</strong> Built comprehensive dashboards tracking customer satisfaction trends, churn risk, and lifetime value</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-pink-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Team Training:</strong> Developed CX best practices documentation and trained support teams on customer-first approaches</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Business Impact -->
+                                <div class="mt-6 p-6 bg-gradient-to-br from-pink-50 to-rose-50 rounded-lg border-2 border-pink-500">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-chart-line text-pink-600 mr-2"></i>
+                                        Business Impact
+                                    </h4>
+                                    <ul class="text-sm text-gray-700 space-y-2">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-pink-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>25% Increase in Customer Satisfaction:</strong> NPS score improved from 45 to 70 within 6 months</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-pink-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Reduced Churn:</strong> 18% decrease in customer churn rate through proactive engagement</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-pink-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Improved Response Times:</strong> Average first-response time reduced by 45% (2.5 hours to 1.4 hours)</span>
+                                        </li>
+                                    </ul>
                                 </div>
                                 
                                 <!-- Technology Stack -->
