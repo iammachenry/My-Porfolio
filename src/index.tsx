@@ -685,7 +685,75 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     
-                    <!-- Case Study 3 - Africa Ohana -->
+                    <!-- Case Study 3 - Salesforce Sales Cloud Implementation -->
+                    <div class="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl p-8 md:p-12 border-2 border-teal-200" data-aos="fade-up">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce Sales Cloud Implementation</h3>
+                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vTvwF0ok2VMplg17vxE7ZF46PQp3j4l3pVOyg_4Fnqt6qz-yePsLYjXUXEvnlbKYw/pub?start=false&loop=false&delayms=3000" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="hidden md:inline-flex items-center bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
+                                        <i class="fas fa-external-link-alt mr-2"></i>
+                                        View Case Study
+                                    </a>
+                                </div>
+                                <p class="text-gray-700 mb-6 leading-relaxed">
+                                    Comprehensive Salesforce Sales Cloud implementation focused on optimizing the sales process, improving lead management, and enhancing sales team productivity. Delivered streamlined sales operations with automated workflows and real-time analytics for data-driven decision making.
+                                </p>
+                                <div class="space-y-3 mb-6">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-teal-600 mr-3"></i>
+                                        <span class="text-gray-700">Complete Sales Cloud configuration and setup</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-teal-600 mr-3"></i>
+                                        <span class="text-gray-700">Automated lead and opportunity management</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-teal-600 mr-3"></i>
+                                        <span class="text-gray-700">Real-time dashboards and sales analytics</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- View Full Case Study Button -->
+                                <a href="https://docs.google.com/presentation/d/e/2PACX-1vTvwF0ok2VMplg17vxE7ZF46PQp3j4l3pVOyg_4Fnqt6qz-yePsLYjXUXEvnlbKYw/pub?start=false&loop=false&delayms=3000" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="inline-flex items-center bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
+                                    <i class="fas fa-external-link-alt mr-2"></i>
+                                    View Full Case Study Presentation
+                                </a>
+                            </div>
+                            
+                            <div class="relative bg-gradient-to-br from-teal-100 via-teal-50 to-white rounded-xl p-8 shadow-lg overflow-hidden">
+                                <!-- Decorative Background Pattern -->
+                                <div class="absolute inset-0 opacity-10">
+                                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="grid3" width="40" height="40" patternUnits="userSpaceOnUse">
+                                                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0d9488" stroke-width="1"/>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#grid3)" />
+                                        <circle cx="20%" cy="30%" r="40" fill="#14b8a6" opacity="0.3"/>
+                                        <circle cx="75%" cy="60%" r="50" fill="#2dd4bf" opacity="0.3"/>
+                                        <circle cx="85%" cy="25%" r="30" fill="#5eead4" opacity="0.3"/>
+                                    </svg>
+                                </div>
+                                <div class="relative z-10 text-center">
+                                    <img src="/static/henry-professional.jpg" 
+                                         alt="Henry Imafidon - Salesforce Professional" 
+                                         class="w-64 h-64 rounded-2xl mx-auto mb-6 object-cover shadow-2xl border-4 border-teal-400">
+                                    <h4 class="text-xl font-bold text-gray-900 mb-2">Complete Project Details</h4>
+                                    <p class="text-gray-700 text-sm">View the full Sales Cloud implementation presentation with detailed configuration, workflows, and results.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Case Study 4 - Africa Ohana -->
                     <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
