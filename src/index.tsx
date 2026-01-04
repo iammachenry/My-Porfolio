@@ -387,6 +387,152 @@ app.get('/', (c) => {
             </div>
         </section>
 
+        <!-- Authority Proof Section - Immediate Impact Metrics -->
+        <section class="py-16 bg-white border-y-2 border-gray-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <!-- Section Title -->
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+                        Trusted by Organizations Across Multiple Industries
+                    </h2>
+                    <p class="text-gray-600">Delivering measurable results in Salesforce implementations</p>
+                </div>
+
+                <!-- Impact Metrics Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+                    <!-- Metric 1 -->
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 text-center transform hover:scale-105 transition shadow-lg">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">108%</div>
+                        <div class="text-sm text-gray-700 font-semibold">Lead Conversion Increase</div>
+                        <div class="text-xs text-gray-500 mt-1">Global Grocery</div>
+                    </div>
+
+                    <!-- Metric 2 -->
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 text-center transform hover:scale-105 transition shadow-lg">
+                        <div class="text-4xl font-bold text-green-600 mb-2">71%</div>
+                        <div class="text-sm text-gray-700 font-semibold">Faster Case Resolution</div>
+                        <div class="text-xs text-gray-500 mt-1">From 3.5 days to &lt;24h</div>
+                    </div>
+
+                    <!-- Metric 3 -->
+                    <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 text-center transform hover:scale-105 transition shadow-lg">
+                        <div class="text-4xl font-bold text-purple-600 mb-2">95%</div>
+                        <div class="text-sm text-gray-700 font-semibold">Forecast Accuracy</div>
+                        <div class="text-xs text-gray-500 mt-1">CRM Implementation</div>
+                    </div>
+
+                    <!-- Metric 4 -->
+                    <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 text-center transform hover:scale-105 transition shadow-lg">
+                        <div class="text-4xl font-bold text-orange-600 mb-2">40%</div>
+                        <div class="text-sm text-gray-700 font-semibold">Efficiency Improvement</div>
+                        <div class="text-xs text-gray-500 mt-1">Across All Projects</div>
+                    </div>
+                </div>
+
+                <!-- Client Industries & Highlights -->
+                <div class="bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-8 border-2 border-blue-100">
+                    <h3 class="text-xl font-bold text-center text-gray-900 mb-6">
+                        Industries Served & Project Highlights
+                    </h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+                        <!-- Industry 1 -->
+                        <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-shopping-cart text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <div class="font-bold text-gray-900 text-sm">Retail & Grocery</div>
+                                    <div class="text-xs text-gray-500">Multi-region expansion</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Industry 2 -->
+                        <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-laptop-code text-purple-600"></i>
+                                </div>
+                                <div>
+                                    <div class="font-bold text-gray-900 text-sm">Technology/SaaS</div>
+                                    <div class="text-xs text-gray-500">10K+ unified records</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Industry 3 -->
+                        <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-industry text-teal-600"></i>
+                                </div>
+                                <div>
+                                    <div class="font-bold text-gray-900 text-sm">Manufacturing</div>
+                                    <div class="text-xs text-gray-500">35% lead conversion ↑</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Industry 4 -->
+                        <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-university text-orange-600"></i>
+                                </div>
+                                <div>
+                                    <div class="font-bold text-gray-900 text-sm">Financial Services</div>
+                                    <div class="text-xs text-gray-500">Compliance-ready</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Industry 5 -->
+                        <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-heartbeat text-indigo-600"></i>
+                                </div>
+                                <div>
+                                    <div class="font-bold text-gray-900 text-sm">Healthcare</div>
+                                    <div class="text-xs text-gray-500">93% patient satisfaction</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Industry 6 -->
+                        <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-store text-pink-600"></i>
+                                </div>
+                                <div>
+                                    <div class="font-bold text-gray-900 text-sm">E-commerce</div>
+                                    <div class="text-xs text-gray-500">NPS 45 → 70</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Stats -->
+                    <div class="mt-8 grid grid-cols-3 gap-4 border-t border-gray-200 pt-6">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-blue-600">6+</div>
+                            <div class="text-xs text-gray-600">Major Implementations</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-green-600">5</div>
+                            <div class="text-xs text-gray-600">Salesforce Clouds</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-purple-600">6</div>
+                            <div class="text-xs text-gray-600">Industries</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- About Section -->
         <section id="about" class="py-20 bg-white bg-pattern relative overflow-hidden">
             <!-- Decorative Elements -->
