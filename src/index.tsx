@@ -293,14 +293,14 @@ app.get('/', (c) => {
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div class="text-white" data-aos="fade-right">
-                        <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                            Transform Your Salesforce Operations with <span class="text-yellow-300">Automated Workflows</span>
+                        <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                            Salesforce Implementation Consultant helping growing teams scale <span class="text-yellow-300">sales and service operations</span> with secure, scalable Salesforce solutions.
                         </h1>
-                        <p class="text-xl mb-4 text-green-100">
-                            Increase Efficiency by Up to 40% with Data-Driven Processes That Support Scalable Growth
+                        <p class="text-xl mb-4 text-green-100 font-semibold">
+                            6X Salesforce Certified | Sales, Service & Automation Specialist | 7+ years in customer operations
                         </p>
                         <p class="text-lg mb-8 leading-relaxed text-green-50">
-                            I'm Henry Imafidon, a <strong>6X Salesforce Certified Professional</strong> with 2+ years as a Salesforce Administrator and Implementation Consultant, plus 7+ years of customer experience helping organizations transform their operations through automated workflows and data-driven strategies.
+                            I design and implement Salesforce solutions that align people, processes, and technology. My work focuses on building scalable data models, secure access controls, and automation that improves adoption, reporting accuracy, and operational efficiency.
                         </p>
                         <div class="flex flex-wrap gap-4">
                             <a href="#contact" class="btn-primary text-white px-8 py-4 rounded-lg font-semibold inline-flex items-center">
@@ -699,11 +699,11 @@ app.get('/', (c) => {
                     
                     <!-- Case Study 1 - Global Grocery Salesforce Implementation -->
                     <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 border-2 border-blue-200" data-aos="fade-up">
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                             <div>
-                                <div class="mb-4">
+                                <div class="mb-6">
                                     <div class="inline-block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-3">
-                                        Group Project | Cohort 9
+                                        Featured Project | Sales & Service Cloud
                                     </div>
                                     <div class="flex items-center justify-between mb-3">
                                         <h3 class="text-3xl font-bold text-gray-900">Global Grocery: Enterprise Sales & Service Cloud Implementation</h3>
@@ -712,66 +712,102 @@ app.get('/', (c) => {
                                            rel="noopener noreferrer"
                                            class="hidden md:inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
                                             <i class="fas fa-external-link-alt mr-2"></i>
-                                            View Case Study
+                                            Full Presentation
                                         </a>
                                     </div>
-                                    <div class="flex items-center space-x-3 mb-3">
+                                    <div class="flex items-center space-x-3 mb-4">
                                         <a href="https://global-grocery.com.ng/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-sm transition">
                                             <i class="fas fa-globe mr-2"></i>
                                             global-grocery.com.ng
                                         </a>
-                                        <span class="text-gray-400">|</span>
-                                        <span class="text-sm text-gray-600"><i class="fas fa-users mr-1"></i> Collaborative Team Implementation</span>
-                                    </div>
-                                </div>
-                                <p class="text-gray-700 mb-2"><strong>Client:</strong> Global Grocery (Multi-Regional Grocery Chain)</p>
-                                <p class="text-gray-700 mb-4"><strong>Challenge:</strong> Managing explosive growth across multiple regions with overwhelming sales inquiries and support requests. Sales managers struggled with multi-location team coordination, poor lead data quality causing low conversion rates, and lack of sales process visibility. Support teams faced SLA compliance issues, unqualified agent assignments, and inability to meet 3-day (general) and 8-hour (premium) resolution targets.</p>
-                                <p class="text-gray-700 mb-6 leading-relaxed">
-                                    <strong>Solution:</strong> Led comprehensive Sales Cloud and Service Cloud implementation with custom lead scoring strategy, visual sales path guidance with stage-specific fields, multi-currency price books for international sales, campaign influence tracking, automated opportunity team splits, entitlement management with Basic/Standard/Premium tiers, milestone-based case tracking with 8-hour early warning system, automated case routing by skill, and omnichannel support (community, live chat, email-to-case, web-to-case).
-                                </p>
-                                <div class="space-y-3 mb-6">
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-blue-600 mr-3"></i>
-                                        <span class="text-gray-700"><strong>Automated lead qualification</strong> with custom scoring strategy</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-blue-600 mr-3"></i>
-                                        <span class="text-gray-700"><strong>Tiered support system</strong> with SLA enforcement and early warnings</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-blue-600 mr-3"></i>
-                                        <span class="text-gray-700"><strong>Multi-region sales operations</strong> with currency and forecasting automation</span>
                                     </div>
                                 </div>
                                 
-                                <!-- Key Deliverables & Metrics -->
-                                <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <div class="p-4 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200">
-                                        <p class="text-sm font-bold text-blue-900 mb-3 flex items-center">
-                                            <i class="fas fa-clipboard-check mr-2"></i>
-                                            Key Deliverables
-                                        </p>
-                                        <ul class="text-xs text-gray-700 space-y-1">
-                                            <li>✓ Solution design with data model</li>
-                                            <li>✓ Standard Operating Procedures</li>
-                                            <li>✓ Training manuals & documentation</li>
-                                            <li>✓ End-to-end sales automation</li>
-                                            <li>✓ Omnichannel support system</li>
-                                        </ul>
+                                <!-- Project Overview -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-briefcase text-blue-600 mr-2"></i>
+                                        Project Overview
+                                    </h4>
+                                    <p class="text-gray-700 mb-2"><strong>Client:</strong> Multi-regional grocery retail chain</p>
+                                    <p class="text-gray-700 mb-2"><strong>Industry:</strong> Retail & Consumer Goods</p>
+                                    <p class="text-gray-700"><strong>Business Goal:</strong> Scale sales and support operations across multiple regions while maintaining SLA compliance and forecast accuracy</p>
+                                </div>
+                                
+                                <!-- My Role -->
+                                <div class="mb-6 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">My Role</h4>
+                                    <p class="text-gray-700">
+                                        Led end-to-end Salesforce implementation including discovery, solution design, configuration, and user enablement for Sales Cloud and Service Cloud deployment.
+                                    </p>
+                                </div>
+                                
+                                <!-- What I Did -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-cogs text-blue-600 mr-2"></i>
+                                        What I Did (Technical Implementation)
+                                    </h4>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Discovery & Process Mapping:</strong> Conducted stakeholder interviews, documented current-state processes, identified pain points across sales and support teams</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Data Model & Security Design:</strong> Designed scalable object relationships, custom fields, validation rules, and role hierarchy with territory-based access controls</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Automation Strategy:</strong> Built custom lead scoring (no AI), automated opportunity team splits, case routing by skill, milestone-based SLA tracking with 8-hour early warnings</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Reporting & Dashboards:</strong> Created executive dashboards for sales forecasting, campaign ROI tracking, and support performance metrics with real-time visibility</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Deployment & Adoption:</strong> Managed UAT, created training documentation, conducted user enablement sessions, and provided post-launch support</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Business Impact -->\n                                <div class="mt-6 p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border-2 border-green-500">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-chart-line text-green-600 mr-2"></i>
+                                        Business Impact (Quantified Results)
+                                    </h4>
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                                        <div class="text-center p-3 bg-white rounded-lg shadow">
+                                            <div class="text-3xl font-bold text-green-600">108%</div>
+                                            <div class="text-xs text-gray-600 mt-1">Lead Conversion Increase</div>
+                                            <div class="text-xs text-gray-500">(12% → 25%)</div>
+                                        </div>
+                                        <div class="text-center p-3 bg-white rounded-lg shadow">
+                                            <div class="text-3xl font-bold text-blue-600">71%</div>
+                                            <div class="text-xs text-gray-600 mt-1">Case Resolution Improvement</div>
+                                            <div class="text-xs text-gray-500">(3.5 days → <24 hrs)</div>
+                                        </div>
+                                        <div class="text-center p-3 bg-white rounded-lg shadow">
+                                            <div class="text-3xl font-bold text-purple-600">50%</div>
+                                            <div class="text-xs text-gray-600 mt-1">Forecast Accuracy Gain</div>
+                                            <div class="text-xs text-gray-500">(60% → 90%)</div>
+                                        </div>
                                     </div>
-                                    <div class="p-4 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200">
-                                        <p class="text-sm font-bold text-green-900 mb-3 flex items-center">
-                                            <i class="fas fa-chart-line mr-2"></i>
-                                            Business Impact
-                                        </p>
-                                        <ul class="text-xs text-gray-700 space-y-1">
-                                            <li>✓ Enhanced lead conversion rates</li>
-                                            <li>✓ 3-day & 8-hour SLA compliance</li>
-                                            <li>✓ Multi-region scalability</li>
-                                            <li>✓ Automated commission splits</li>
-                                            <li>✓ Real-time forecasting</li>
-                                        </ul>
-                                    </div>
+                                    <ul class="text-sm text-gray-700 space-y-2">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-green-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>SLA Compliance Achieved:</strong> 100% adherence to 3-day general and 8-hour premium support targets</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-green-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Process Automation:</strong> Eliminated 15+ hours/week of manual data entry across sales and support teams</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-green-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Multi-Region Scalability:</strong> Enabled expansion to 3 new territories with consistent processes and reporting</span>
+                                        </li>
+                                    </ul>
                                 </div>
                                 
                                 <!-- Technology Stack -->
