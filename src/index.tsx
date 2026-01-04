@@ -753,7 +753,75 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     
-                    <!-- Case Study 4 - Africa Ohana -->
+                    <!-- Case Study 4 - Salesforce Project -->
+                    <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 md:p-12 border-2 border-orange-200" data-aos="fade-up">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce Implementation Project</h3>
+                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vQt781ixR-LUGftgfOCWjPGWbVwKYuCNiGxO7ZBu9RpFR182-KWB3Is3tOcqCnhHA/pub?start=false&loop=false&delayms=3000" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="hidden md:inline-flex items-center bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
+                                        <i class="fas fa-external-link-alt mr-2"></i>
+                                        View Case Study
+                                    </a>
+                                </div>
+                                <p class="text-gray-700 mb-6 leading-relaxed">
+                                    End-to-end Salesforce implementation delivering comprehensive CRM solutions tailored to business needs. Focused on digital transformation, process automation, and creating scalable systems that drive business growth and operational excellence.
+                                </p>
+                                <div class="space-y-3 mb-6">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-orange-600 mr-3"></i>
+                                        <span class="text-gray-700">Complete Salesforce platform implementation</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-orange-600 mr-3"></i>
+                                        <span class="text-gray-700">Business process optimization and automation</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-orange-600 mr-3"></i>
+                                        <span class="text-gray-700">Scalable system architecture and workflows</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- View Full Case Study Button -->
+                                <a href="https://docs.google.com/presentation/d/e/2PACX-1vQt781ixR-LUGftgfOCWjPGWbVwKYuCNiGxO7ZBu9RpFR182-KWB3Is3tOcqCnhHA/pub?start=false&loop=false&delayms=3000" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="inline-flex items-center bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
+                                    <i class="fas fa-external-link-alt mr-2"></i>
+                                    View Full Case Study Presentation
+                                </a>
+                            </div>
+                            
+                            <div class="relative bg-gradient-to-br from-orange-100 via-orange-50 to-white rounded-xl p-8 shadow-lg overflow-hidden">
+                                <!-- Decorative Background Pattern -->
+                                <div class="absolute inset-0 opacity-10">
+                                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="grid4" width="40" height="40" patternUnits="userSpaceOnUse">
+                                                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ea580c" stroke-width="1"/>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#grid4)" />
+                                        <circle cx="18%" cy="28%" r="38" fill="#f97316" opacity="0.3"/>
+                                        <circle cx="78%" cy="62%" r="48" fill="#fb923c" opacity="0.3"/>
+                                        <circle cx="88%" cy="32%" r="28" fill="#fdba74" opacity="0.3"/>
+                                    </svg>
+                                </div>
+                                <div class="relative z-10 text-center">
+                                    <img src="/static/henry-professional.jpg" 
+                                         alt="Henry Imafidon - Salesforce Professional" 
+                                         class="w-64 h-64 rounded-2xl mx-auto mb-6 object-cover shadow-2xl border-4 border-orange-400">
+                                    <h4 class="text-xl font-bold text-gray-900 mb-2">Complete Project Details</h4>
+                                    <p class="text-gray-700 text-sm">View the full implementation presentation with detailed analysis, architecture, and business outcomes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Case Study 5 - Africa Ohana -->
                     <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
