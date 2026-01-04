@@ -890,43 +890,92 @@ app.get('/', (c) => {
                     
                     <!-- Case Study 2 - Salesforce CRM Implementation -->
                     <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 md:p-12 border-2 border-purple-200" data-aos="fade-up">
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                             <div>
-                                <div class="flex items-center justify-between mb-4">
-                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce CRM Implementation</h3>
-                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vQybzqGFIzMlzUjOvkorx1-SDYImCzQDe-mE_Qi074L0fIVy451QMxaFLi6maYdAg/pub?start=true&loop=true&delayms=3000" 
-                                       target="_blank" 
-                                       rel="noopener noreferrer"
-                                       class="hidden md:inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
-                                        <i class="fas fa-external-link-alt mr-2"></i>
-                                        View Case Study
-                                    </a>
-                                </div>
-                                <p class="text-gray-700 mb-6 leading-relaxed">
-                                    Comprehensive Salesforce CRM implementation focusing on optimizing business processes, improving data management, and enhancing customer relationship workflows. The project delivered streamlined operations and improved efficiency across sales and service functions.
-                                </p>
-                                <div class="space-y-3 mb-6">
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-purple-600 mr-3"></i>
-                                        <span class="text-gray-700">Complete CRM system implementation</span>
+                                <div class="mb-6">
+                                    <div class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-3">
+                                        CRM Transformation | Sales & Service
                                     </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-purple-600 mr-3"></i>
-                                        <span class="text-gray-700">Optimized sales and service processes</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fas fa-check-circle text-purple-600 mr-3"></i>
-                                        <span class="text-gray-700">Enhanced data management and reporting</span>
-                                    </div>
+                                    <h3 class="text-3xl font-bold text-gray-900 mb-3">Salesforce CRM Implementation</h3>
                                 </div>
                                 
-                                <!-- View Full Case Study Button -->
+                                <!-- Project Overview -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-briefcase text-purple-600 mr-2"></i>
+                                        Project Overview
+                                    </h4>
+                                    <p class="text-gray-700 mb-2"><strong>Client:</strong> Mid-sized technology company</p>
+                                    <p class="text-gray-700 mb-2"><strong>Industry:</strong> Technology & SaaS</p>
+                                    <p class="text-gray-700"><strong>Business Goal:</strong> Unify fragmented sales and support data into a single CRM platform for better customer visibility and revenue forecasting</p>
+                                </div>
+                                
+                                <!-- My Role -->
+                                <div class="mb-6 bg-purple-50 p-4 rounded-lg border-l-4 border-purple-600">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">My Role</h4>
+                                    <p class="text-gray-700">
+                                        Salesforce Administrator responsible for CRM configuration, data migration strategy, and cross-functional process alignment.
+                                    </p>
+                                </div>
+                                
+                                <!-- What I Did -->
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-cogs text-purple-600 mr-2"></i>
+                                        What I Did (Technical Implementation)
+                                    </h4>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Data Model Design:</strong> Architected custom objects, relationships, and field-level security for sales pipeline and support case management</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Data Migration:</strong> Led extraction, transformation, and loading (ETL) of 10K+ records from legacy systems with data cleansing</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Process Automation:</strong> Built Flows for lead assignment, opportunity stage updates, and automated follow-up task creation</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>Reporting Framework:</strong> Created executive dashboards tracking pipeline health, conversion rates, and support ticket trends</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                                            <span><strong>User Training:</strong> Delivered role-based training sessions and created quick-reference guides for 40+ users</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Business Impact -->
+                                <div class="mt-6 p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg border-2 border-purple-500">
+                                    <h4 class="text-lg font-bold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-chart-line text-purple-600 mr-2"></i>
+                                        Business Impact
+                                    </h4>
+                                    <ul class="text-sm text-gray-700 space-y-2">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-purple-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Unified Customer Data:</strong> Single source of truth for 10K+ customer records across sales and support</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-purple-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Improved Pipeline Visibility:</strong> Real-time revenue forecasting with 95% accuracy</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-purple-600 mt-1 mr-2 flex-shrink-0"></i>
+                                            <span><strong>Enhanced Productivity:</strong> 30% reduction in manual data entry through automation</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
                                 <a href="https://docs.google.com/presentation/d/e/2PACX-1vQybzqGFIzMlzUjOvkorx1-SDYImCzQDe-mE_Qi074L0fIVy451QMxaFLi6maYdAg/pub?start=true&loop=true&delayms=3000" 
                                    target="_blank" 
                                    rel="noopener noreferrer"
-                                   class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
+                                   class="mt-4 inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
                                     <i class="fas fa-external-link-alt mr-2"></i>
-                                    View Full Case Study Presentation
+                                    View Full Presentation
                                 </a>
                             </div>
                             
