@@ -821,7 +821,75 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     
-                    <!-- Case Study 5 - Africa Ohana -->
+                    <!-- Case Study 5 - Salesforce Service Cloud Implementation -->
+                    <div class="bg-gradient-to-br from-indigo-50 to-violet-50 rounded-2xl p-8 md:p-12 border-2 border-indigo-200" data-aos="fade-up">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce Service Cloud Implementation</h3>
+                                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vTrS1DFbFbbEhp1CmrDadgUyZJtk0DO2v1QKEk_GFYMzlI2EN_rF_NvMcB8-t-u-Q/pub?start=false&loop=false&delayms=3000" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="hidden md:inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg hover:shadow-xl">
+                                        <i class="fas fa-external-link-alt mr-2"></i>
+                                        View Case Study
+                                    </a>
+                                </div>
+                                <p class="text-gray-700 mb-6 leading-relaxed">
+                                    Comprehensive Salesforce Service Cloud implementation focused on transforming customer support operations. Delivered enhanced case management, streamlined support workflows, and improved customer satisfaction through automated service processes and real-time analytics.
+                                </p>
+                                <div class="space-y-3 mb-6">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-indigo-600 mr-3"></i>
+                                        <span class="text-gray-700">Complete Service Cloud setup and configuration</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-indigo-600 mr-3"></i>
+                                        <span class="text-gray-700">Automated case management and routing</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-check-circle text-indigo-600 mr-3"></i>
+                                        <span class="text-gray-700">Enhanced customer support workflows and analytics</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- View Full Case Study Button -->
+                                <a href="https://docs.google.com/presentation/d/e/2PACX-1vTrS1DFbFbbEhp1CmrDadgUyZJtk0DO2v1QKEk_GFYMzlI2EN_rF_NvMcB8-t-u-Q/pub?start=false&loop=false&delayms=3000" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
+                                    <i class="fas fa-external-link-alt mr-2"></i>
+                                    View Full Case Study Presentation
+                                </a>
+                            </div>
+                            
+                            <div class="relative bg-gradient-to-br from-indigo-100 via-indigo-50 to-white rounded-xl p-8 shadow-lg overflow-hidden">
+                                <!-- Decorative Background Pattern -->
+                                <div class="absolute inset-0 opacity-10">
+                                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="grid5" width="40" height="40" patternUnits="userSpaceOnUse">
+                                                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#4f46e5" stroke-width="1"/>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#grid5)" />
+                                        <circle cx="22%" cy="32%" r="42" fill="#6366f1" opacity="0.3"/>
+                                        <circle cx="72%" cy="58%" r="52" fill="#818cf8" opacity="0.3"/>
+                                        <circle cx="82%" cy="28%" r="32" fill="#a5b4fc" opacity="0.3"/>
+                                    </svg>
+                                </div>
+                                <div class="relative z-10 text-center">
+                                    <img src="/static/henry-professional.jpg" 
+                                         alt="Henry Imafidon - Salesforce Professional" 
+                                         class="w-64 h-64 rounded-2xl mx-auto mb-6 object-cover shadow-2xl border-4 border-indigo-400">
+                                    <h4 class="text-xl font-bold text-gray-900 mb-2">Complete Project Details</h4>
+                                    <p class="text-gray-700 text-sm">View the full Service Cloud implementation presentation with case management strategies and customer support optimization.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Case Study 6 - Africa Ohana -->
                     <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
