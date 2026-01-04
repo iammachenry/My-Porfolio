@@ -889,12 +889,12 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     
-                    <!-- Case Study 6 - Salesforce Project -->
+                    <!-- Case Study 6 - Customer Experience Project -->
                     <div class="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-8 md:p-12 border-2 border-pink-200" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
                                 <div class="flex items-center justify-between mb-4">
-                                    <h3 class="text-3xl font-bold text-gray-900">Salesforce Implementation Project</h3>
+                                    <h3 class="text-3xl font-bold text-gray-900">Customer Experience (CX) Project</h3>
                                     <a href="https://docs.google.com/presentation/d/e/2PACX-1vTMw1P6L6ithhQCljJT8u-Ie5vbofNpFBA83B08D872GoM662bU09AKeMF-SiGkgg/pub?start=false&loop=false&delayms=3000" 
                                        target="_blank" 
                                        rel="noopener noreferrer"
@@ -904,20 +904,20 @@ app.get('/', (c) => {
                                     </a>
                                 </div>
                                 <p class="text-gray-700 mb-6 leading-relaxed">
-                                    Strategic Salesforce implementation delivering comprehensive CRM transformation. Focused on improving business operations, enhancing data visibility, and creating efficient workflows that support organizational growth and improved customer engagement.
+                                    Comprehensive Customer Experience transformation leveraging 7+ years of CX expertise. Focused on optimizing customer interactions, improving satisfaction rates, and creating seamless customer journeys that drive loyalty and business growth.
                                 </p>
                                 <div class="space-y-3 mb-6">
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-pink-600 mr-3"></i>
-                                        <span class="text-gray-700">Full Salesforce platform deployment</span>
+                                        <span class="text-gray-700">Enhanced customer journey and touchpoint optimization</span>
                                     </div>
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-pink-600 mr-3"></i>
-                                        <span class="text-gray-700">Streamlined business processes and workflows</span>
+                                        <span class="text-gray-700">Improved customer satisfaction and engagement</span>
                                     </div>
                                     <div class="flex items-center">
                                         <i class="fas fa-check-circle text-pink-600 mr-3"></i>
-                                        <span class="text-gray-700">Enhanced data visibility and reporting</span>
+                                        <span class="text-gray-700">Streamlined support processes and response times</span>
                                     </div>
                                 </div>
                                 
