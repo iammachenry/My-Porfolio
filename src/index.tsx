@@ -553,8 +553,19 @@ app.get('/', (c) => {
                     <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 border-2 border-blue-200" data-aos="fade-up">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             <div>
-                                <div class="flex items-center justify-between mb-4">
-                                    <h3 class="text-3xl font-bold text-gray-900">Global Grocery: Enterprise Sales & Service Cloud Implementation</h3>
+                                <div class="mb-4">
+                                    <div class="inline-block bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-3">
+                                        🏆 Group Project | Cohort 9
+                                    </div>
+                                    <h3 class="text-3xl font-bold text-gray-900 mb-3">Global Grocery: Enterprise Sales & Service Cloud Implementation</h3>
+                                    <div class="flex items-center space-x-3 mb-3">
+                                        <a href="https://www.GlobalGrocery.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-sm transition">
+                                            <i class="fas fa-globe mr-2"></i>
+                                            www.GlobalGrocery.com
+                                        </a>
+                                        <span class="text-gray-400">|</span>
+                                        <span class="text-sm text-gray-600"><i class="fas fa-users mr-1"></i> Collaborative Team Implementation</span>
+                                    </div>
                                 </div>
                                 <p class="text-gray-700 mb-2"><strong>Client:</strong> Global Grocery (Multi-Regional Grocery Chain)</p>
                                 <p class="text-gray-700 mb-4"><strong>Challenge:</strong> Managing explosive growth across multiple regions with overwhelming sales inquiries and support requests. Sales managers struggled with multi-location team coordination, poor lead data quality causing low conversion rates, and lack of sales process visibility. Support teams faced SLA compliance issues, unqualified agent assignments, and inability to meet 3-day (general) and 8-hour (premium) resolution targets.</p>
@@ -576,16 +587,53 @@ app.get('/', (c) => {
                                     </div>
                                 </div>
                                 
-                                <!-- Key Deliverables -->
-                                <div class="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200">
-                                    <p class="text-sm font-semibold text-blue-900 mb-2">Project Deliverables:</p>
-                                    <ul class="text-sm text-gray-700 space-y-1">
-                                        <li>• Complete solution design with user stories and data model</li>
-                                        <li>• Standard Operating Procedures (SOP) documentation</li>
-                                        <li>• Training manual for business users</li>
-                                        <li>• End-to-end sales process: Lead → Opportunity → Quote → Contract</li>
-                                        <li>• Omnichannel support: Community, Live Chat, Email-to-Case, Web-to-Case</li>
-                                    </ul>
+                                <!-- Key Deliverables & Metrics -->
+                                <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div class="p-4 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200">
+                                        <p class="text-sm font-bold text-blue-900 mb-3 flex items-center">
+                                            <i class="fas fa-clipboard-check mr-2"></i>
+                                            Key Deliverables
+                                        </p>
+                                        <ul class="text-xs text-gray-700 space-y-1">
+                                            <li>✓ Solution design with data model</li>
+                                            <li>✓ Standard Operating Procedures</li>
+                                            <li>✓ Training manuals & documentation</li>
+                                            <li>✓ End-to-end sales automation</li>
+                                            <li>✓ Omnichannel support system</li>
+                                        </ul>
+                                    </div>
+                                    <div class="p-4 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200">
+                                        <p class="text-sm font-bold text-green-900 mb-3 flex items-center">
+                                            <i class="fas fa-chart-line mr-2"></i>
+                                            Business Impact
+                                        </p>
+                                        <ul class="text-xs text-gray-700 space-y-1">
+                                            <li>📈 Enhanced lead conversion rates</li>
+                                            <li>⚡ 3-day & 8-hour SLA compliance</li>
+                                            <li>🌍 Multi-region scalability</li>
+                                            <li>💰 Automated commission splits</li>
+                                            <li>🎯 Real-time forecasting</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Technology Stack -->
+                                <div class="mt-4 flex flex-wrap gap-2">
+                                    <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-cloud mr-1"></i> Sales Cloud
+                                    </span>
+                                    <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-headset mr-1"></i> Service Cloud
+                                    </span>
+                                    <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-network-wired mr-1"></i> Omnichannel
+                                    </span>
+                                    <span class="bg-teal-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-globe-americas mr-1"></i> Multi-Currency
+                                    </span>
+                                    <span class="bg-pink-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                        <i class="fas fa-shield-alt mr-1"></i> SLA Management
+                                    </span>
                                 </div>
                             </div>
                             
@@ -604,16 +652,42 @@ app.get('/', (c) => {
                                         <circle cx="90%" cy="30%" r="20" fill="#93c5fd" opacity="0.3"/>
                                     </svg>
                                 </div>
-                                <div class="relative z-10 text-center">
-                                    <img src="/static/henry-professional.jpg" 
-                                         alt="Henry Imafidon - Salesforce Professional" 
-                                         class="w-64 h-64 rounded-2xl mx-auto mb-6 object-cover shadow-2xl border-4 border-blue-400">
-                                    <h4 class="text-xl font-bold text-gray-900 mb-2">Enterprise Implementation</h4>
-                                    <p class="text-gray-700 text-sm mb-3">Multi-region grocery chain transformation combining Sales Cloud and Service Cloud.</p>
-                                    <div class="flex items-center justify-center space-x-4 text-sm">
-                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-semibold">Sales Cloud</span>
-                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-semibold">Service Cloud</span>
+                                <div class="relative z-10">
+                                    <!-- Professional Photo -->
+                                    <div class="text-center mb-6">
+                                        <img src="/static/henry-professional.jpg" 
+                                             alt="Henry Imafidon - Salesforce Professional" 
+                                             class="w-64 h-64 rounded-2xl mx-auto mb-4 object-cover shadow-2xl border-4 border-blue-400">
+                                        <h4 class="text-xl font-bold text-gray-900 mb-2">Enterprise Implementation</h4>
+                                        <p class="text-gray-700 text-sm mb-3">Multi-region grocery chain transformation</p>
                                     </div>
+                                    
+                                    <!-- Project Stats -->
+                                    <div class="grid grid-cols-2 gap-3 mb-4">
+                                        <div class="bg-white p-3 rounded-lg shadow text-center">
+                                            <div class="text-2xl font-bold text-blue-600">6</div>
+                                            <div class="text-xs text-gray-600">Week Timeline</div>
+                                        </div>
+                                        <div class="bg-white p-3 rounded-lg shadow text-center">
+                                            <div class="text-2xl font-bold text-indigo-600">2</div>
+                                            <div class="text-xs text-gray-600">Clouds Integrated</div>
+                                        </div>
+                                        <div class="bg-white p-3 rounded-lg shadow text-center">
+                                            <div class="text-2xl font-bold text-purple-600">3</div>
+                                            <div class="text-xs text-gray-600">Support Tiers</div>
+                                        </div>
+                                        <div class="bg-white p-3 rounded-lg shadow text-center">
+                                            <div class="text-2xl font-bold text-teal-600">∞</div>
+                                            <div class="text-xs text-gray-600">Regions Supported</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Website Link -->
+                                    <a href="https://www.GlobalGrocery.com" target="_blank" rel="noopener noreferrer" 
+                                       class="block w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-center py-3 rounded-lg font-semibold transition shadow-lg hover:shadow-xl">
+                                        <i class="fas fa-external-link-alt mr-2"></i>
+                                        Visit GlobalGrocery.com
+                                    </a>
                                 </div>
                             </div>
                         </div>
