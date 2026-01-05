@@ -274,7 +274,7 @@ app.get('/', (c) => {
                            rel="noopener noreferrer"
                            class="bg-gradient-to-r from-green-600 to-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold inline-flex items-center hover:from-green-700 hover:to-blue-700 transition shadow-md">
                             <i class="fas fa-file-alt mr-2"></i>
-                            Resume
+                            CV
                         </a>
                     </div>
                     <button id="mobile-menu-btn" class="md:hidden text-gray-700">
@@ -296,7 +296,7 @@ app.get('/', (c) => {
                        rel="noopener noreferrer"
                        class="block bg-gradient-to-r from-green-600 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-center">
                         <i class="fas fa-file-alt mr-2"></i>
-                        Download Resume
+                        View CV
                     </a>
                 </div>
             </div>
@@ -754,14 +754,14 @@ app.get('/', (c) => {
                             <div class="inline-block bg-gradient-to-r from-blue-100 to-green-100 px-4 py-2 rounded-full mb-4">
                                 <span class="text-blue-900 font-semibold text-sm">
                                     <i class="fas fa-file-alt mr-2"></i>
-                                    Professional Resume
+                                    Professional CV
                                 </span>
                             </div>
                             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                                 Want the Full Details?
                             </h2>
                             <p class="text-lg text-gray-700 mb-4">
-                                Download my complete resume with detailed work history, certifications, technical skills, and project implementations.
+                                View my complete CV with detailed work history, certifications, technical skills, and project implementations.
                             </p>
                             <ul class="space-y-2 text-gray-700">
                                 <li class="flex items-center">
@@ -790,7 +790,7 @@ app.get('/', (c) => {
                                     <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-600 to-green-600 rounded-full mb-4">
                                         <i class="fas fa-file-pdf text-white text-3xl"></i>
                                     </div>
-                                    <h3 class="text-xl font-bold text-gray-900 mb-2">Resume PDF</h3>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-2">Professional CV</h3>
                                     <p class="text-sm text-gray-600">Updated January 2026</p>
                                 </div>
 
@@ -798,14 +798,9 @@ app.get('/', (c) => {
                                    target="_blank"
                                    rel="noopener noreferrer"
                                    class="inline-flex items-center justify-center w-full bg-gradient-to-r from-blue-600 to-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-green-700 transition shadow-xl hover:shadow-2xl transform hover:scale-105">
-                                    <i class="fas fa-download mr-3"></i>
-                                    Download Resume
+                                    <i class="fas fa-eye mr-3"></i>
+                                    View My CV
                                 </a>
-
-                                <p class="text-xs text-gray-500 mt-4">
-                                    <i class="fas fa-lock mr-1"></i>
-                                    Opens in Google Docs
-                                </p>
                             </div>
                         </div>
                     </div>
