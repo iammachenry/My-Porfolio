@@ -790,8 +790,7 @@ app.get('/', (c) => {
                                     <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-600 to-green-600 rounded-full mb-4">
                                         <i class="fas fa-file-pdf text-white text-3xl"></i>
                                     </div>
-                                    <h3 class="text-xl font-bold text-gray-900 mb-2">Professional CV</h3>
-                                    <p class="text-sm text-gray-600">Updated January 2026</p>
+                                    <h3 class="text-xl font-bold text-gray-900">Professional CV</h3>
                                 </div>
 
                                 <a href="https://drive.google.com/file/d/1srpFAplJVJj4yO4mg4zWlYO2IfZdG-Ra/view?usp=sharing" 
