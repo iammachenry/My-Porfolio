@@ -321,13 +321,6 @@ app.get('/', (c) => {
                                 <i class="fas fa-calendar-check mr-2"></i>
                                 Schedule Free Consultation
                             </a>
-                            <a href="https://drive.google.com/file/d/1srpFAplJVJj4yO4mg4zWlYO2IfZdG-Ra/view?usp=sharing" 
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               class="bg-white text-green-600 px-8 py-4 rounded-lg font-semibold inline-flex items-center hover:bg-green-50 transition shadow-lg">
-                                <i class="fas fa-file-download mr-2"></i>
-                                Download Resume
-                            </a>
                             <a href="#services" class="bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold inline-flex items-center hover:bg-white/30 transition">
                                 <i class="fas fa-arrow-down mr-2"></i>
                                 View Services
