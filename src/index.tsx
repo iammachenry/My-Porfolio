@@ -311,7 +311,7 @@ app.get('/', (c) => {
                             Salesforce Implementation Consultant helping growing teams scale <span class="text-yellow-300">sales and service operations</span> with secure, scalable Salesforce solutions.
                         </h1>
                         <p class="text-xl mb-4 text-green-100 font-semibold">
-                            6X Salesforce Certified | Sales, Service & Automation Specialist | 7+ years in customer operations
+                            6X Salesforce Certified | Sales, Service & Automation Specialist | 7+ years Customer Experience
                         </p>
                         <p class="text-lg mb-8 leading-relaxed text-green-50">
                             I design and implement Salesforce solutions that align people, processes, and technology. My work focuses on building scalable data models, secure access controls, and automation that improves adoption, reporting accuracy, and operational efficiency.
