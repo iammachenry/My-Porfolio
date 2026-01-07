@@ -350,7 +350,7 @@ app.get('/', (c) => {
                             <div class="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 shadow-2xl">
                                 <!-- Professional Photo -->
                                 <div class="relative">
-                                    <img src="https://www.genspark.ai/api/files/s/0hQLaJxI" 
+                                    <img src="/static/henry-dashboard-photo.jpg" 
                                          alt="Henry Imafidon - Salesforce Administrator & Implementation Specialist" 
                                          class="w-full h-auto object-cover">
                                     <!-- Overlay Badge -->
