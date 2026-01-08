@@ -352,7 +352,7 @@ app.get('/', (c) => {
                     
                     <!-- Brief Intro About You -->
                     <p class="text-lg md:text-xl mb-8 leading-relaxed text-green-50 max-w-3xl mx-auto">
-                        I'm <strong class="text-white font-bold">Henry Imafidon</strong>, and I design Salesforce ecosystems that turn operational complexity into competitive advantage.
+                        I'm <strong class="text-white font-bold">Henry Imafidon</strong>, a certified Salesforce Administrator & Implementation Consultant who turns operational complexity into competitive advantage.
                     </p>
                     
                     <!-- CTAs -->
