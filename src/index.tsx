@@ -319,7 +319,7 @@ app.get('/', (c) => {
         <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden">
             <!-- Salesforce Dashboard Background (Blurred) -->
             <div class="absolute inset-0 z-0">
-                <img src="https://www.genspark.ai/api/files/s/F94aQFKv" 
+                <img src="/static/salesforce-dashboard-background.jpg" 
                      alt="Salesforce Dashboard Background" 
                      class="w-full h-full object-cover object-center blur-sm opacity-30">
                 <!-- Gradient Overlay -->
@@ -335,7 +335,7 @@ app.get('/', (c) => {
                         <div class="relative">
                             <!-- Professional Photo -->
                             <div class="w-80 h-80 md:w-96 md:h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
-                                <img src="https://www.genspark.ai/api/files/s/WXSptjzb" 
+                                <img src="/static/henry-professional-headshot.jpg" 
                                      alt="Henry Imafidon - Salesforce Administrator & Implementation Specialist" 
                                      class="w-full h-full object-cover">
                             </div>
