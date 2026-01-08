@@ -10,7 +10,7 @@ app.use('/api/*', cors())
 // Serve static files
 app.use('/static/*', serveStatic({ root: './public' }))
 
-// API route for contact form - submits to Google Forms
+// API route for contact form - submits to Formspree
 app.post('/api/contact', async (c) => {
   const { name, email, company, message, service } = await c.req.json()
   
@@ -26,33 +26,29 @@ app.post('/api/contact', async (c) => {
   }
   
   try {
-    // Submit to Google Forms
-    // Form URL: https://docs.google.com/forms/d/e/1FAIpQLSdLKGUWCS2fgzkRWbGpmO7i1fx08zwL0--fOFLDAi0uHC3ubA/viewform
-    const formId = '1FAIpQLSdLKGUWCS2fgzkRWbGpmO7i1fx08zwL0--fOFLDAi0uHC3ubA'
+    // Submit to Formspree
+    const formspreeUrl = 'https://formspree.io/f/xkogdkyy'
     
-    // Google Forms field entry IDs (you need to inspect your form to get these)
-    // For now, we'll use a FormData approach
-    const googleFormData = new FormData()
-    googleFormData.append('entry.1234567890', name) // Replace with actual entry ID
-    googleFormData.append('entry.0987654321', email) // Replace with actual entry ID
-    googleFormData.append('entry.1122334455', company || '')
-    googleFormData.append('entry.5544332211', service)
-    googleFormData.append('entry.9988776655', message)
-    
-    // Submit to Google Forms (no-cors mode)
-    const googleFormUrl = `https://docs.google.com/forms/d/e/${formId}/formResponse`
-    
-    // Note: Due to CORS, we can't verify if submission succeeded
-    // We'll return success and Google Forms will handle it
-    fetch(googleFormUrl, {
+    const response = await fetch(formspreeUrl, {
       method: 'POST',
-      body: googleFormData,
-      mode: 'no-cors'
-    }).catch(() => {
-      // Ignore CORS errors - submission likely succeeded
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        company: company || 'Not provided',
+        service: service,
+        message: message,
+        _subject: `New Contact: ${name} - ${service}`,
+      }),
     })
     
-    console.log('Contact form submission:', { name, email, company, message, service })
+    if (!response.ok) {
+      throw new Error('Formspree submission failed')
+    }
+    
+    console.log('Contact form submission successful:', { name, email, company, message, service })
     
     return c.json({ 
       success: true, 
@@ -62,7 +58,7 @@ app.post('/api/contact', async (c) => {
     console.error('Contact form error:', error)
     return c.json({ 
       success: false, 
-      error: 'Failed to send message. Please try again or use the Google Form link below.' 
+      error: 'Failed to send message. Please try the Google Form link below or email me directly.' 
     }, 500)
   }
 })
