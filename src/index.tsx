@@ -317,8 +317,8 @@ app.get('/', (c) => {
 
         <!-- Hero Section - WITH GREEN BACKGROUND (MOBILE OPTIMIZED) -->
         <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-green-600 to-teal-700">
-            <!-- Dashboard Background Image (Subtle) -->
-            <div class="absolute inset-0 opacity-20">
+            <!-- Dashboard Background Image (MORE VISIBLE) -->
+            <div class="absolute inset-0 opacity-40">
                 <img 
                     src="/static/henry-salesforce-dashboard.jpg" 
                     alt="Dashboard Background" 
@@ -326,8 +326,8 @@ app.get('/', (c) => {
                 />
             </div>
             
-            <!-- Gradient Overlay for Readability -->
-            <div class="absolute inset-0 bg-gradient-to-br from-green-600/80 via-teal-700/70 to-green-800/80" />
+            <!-- Gradient Overlay for Readability (LIGHTER) -->
+            <div class="absolute inset-0 bg-gradient-to-br from-green-600/60 via-teal-700/50 to-green-800/60" />
 
             <!-- Hero Content Overlay - MOBILE OPTIMIZED -->
             <div class="relative z-10 w-full px-4 sm:px-6 lg:px-8 py-20 pt-24 md:pt-32">
