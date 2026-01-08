@@ -321,7 +321,7 @@ app.get('/', (c) => {
             <img 
                 src="/static/henry-salesforce-dashboard.jpg" 
                 alt="Henry Imafidon - Salesforce Administrator & Implementation Specialist" 
-                class="absolute inset-0 w-full h-full object-cover object-center"
+                class="absolute inset-0 w-full h-full object-contain object-top"
             />
 
             <!-- Minimal Scroll Indicator (Bottom Only) -->
