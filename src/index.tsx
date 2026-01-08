@@ -19,14 +19,83 @@ app.post('/api/contact', async (c) => {
     return c.json({ success: false, error: 'Name, email, and message are required' }, 400)
   }
   
-  // In production, you would send email or store in database
-  // For now, just log and return success
-  console.log('Contact form submission:', { name, email, company, message, service })
+  // Email validation
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  if (!emailRegex.test(email)) {
+    return c.json({ success: false, error: 'Please provide a valid email address' }, 400)
+  }
   
-  return c.json({ 
-    success: true, 
-    message: 'Thank you for your message! I will get back to you soon.' 
-  })
+  try {
+    // Send email notification using MailChannels (Free on Cloudflare Workers)
+    // https://blog.cloudflare.com/sending-email-from-workers-with-mailchannels/
+    const emailBody = `
+New Contact Form Submission from Portfolio
+
+Name: ${name}
+Email: ${email}
+Company: ${company || 'Not provided'}
+Service Interest: ${service || 'Not specified'}
+
+Message:
+${message}
+
+---
+Submitted at: ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })}
+    `.trim()
+    
+    // Send email via MailChannels (free for Cloudflare Workers)
+    const send_request = new Request('https://api.mailchannels.net/tx/v1/send', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify({
+        personalizations: [
+          {
+            to: [{ email: 'henryeromosele1@gmail.com', name: 'Henry Imafidon' }],
+            dkim_domain: 'henryimafidon.netlify.app',
+            dkim_selector: 'mailchannels',
+          },
+        ],
+        from: {
+          email: 'portfolio@henryimafidon.me',
+          name: 'Henry Portfolio Contact Form',
+        },
+        reply_to: {
+          email: email,
+          name: name,
+        },
+        subject: `New Contact Form: ${name} - ${service || 'General Inquiry'}`,
+        content: [
+          {
+            type: 'text/plain',
+            value: emailBody,
+          },
+        ],
+      }),
+    })
+    
+    const response = await fetch(send_request)
+    
+    if (!response.ok) {
+      console.error('MailChannels error:', await response.text())
+      // Even if email fails, still return success to user
+      // (you'll see it in logs)
+    }
+    
+    console.log('Contact form submission:', { name, email, company, message, service })
+    
+    return c.json({ 
+      success: true, 
+      message: 'Thank you for your message! I will get back to you within 24 hours.' 
+    })
+  } catch (error) {
+    console.error('Contact form error:', error)
+    return c.json({ 
+      success: false, 
+      error: 'Failed to send message. Please email me directly at henryeromosele1@gmail.com' 
+    }, 500)
+  }
 })
 
 // Main page route
