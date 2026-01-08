@@ -68,8 +68,10 @@
 
 ## URLs
 - **Local Development**: http://localhost:3000
+- **Live Preview**: https://www.genspark.ai/api/code_sandbox/preview_url?sandbox_id=i3u6jgr1af5pkyvkszw8v-d0b9e1e2&port=3000&type=novita
 - **Sandbox Preview**: https://3000-i3u6jgr1af5pkyvkszw8v-d0b9e1e2.sandbox.novita.ai
-- **Production**: (Ready to deploy to Cloudflare Pages)
+- **Production (Netlify)**: https://henryimafidon.netlify.app
+- **GitHub Repository**: https://github.com/iammachenry/My-Porfolio
 - **API Endpoint**: /api/contact
 
 ## Your Unique Value Proposition
@@ -204,12 +206,14 @@ webapp/
    - Sitemap
 
 ## Deployment Status
-- **Platform**: Cloudflare Pages (Ready)
-- **Status**: ✅ Running in Sandbox | ⏳ Ready for Production
+- **Platform**: Netlify (Production) | Cloudflare Pages (Ready)
+- **Status**: ✅ Live on Netlify | ✅ Running in Sandbox
+- **Live Preview URL**: https://www.genspark.ai/api/code_sandbox/preview_url?sandbox_id=i3u6jgr1af5pkyvkszw8v-d0b9e1e2&port=3000&type=novita
+- **Production URL**: https://henryimafidon.netlify.app
 - **Sandbox URL**: https://3000-i3u6jgr1af5pkyvkszw8v-d0b9e1e2.sandbox.novita.ai
-- **Color Scheme**: ✅ Light Green
+- **Color Scheme**: ✅ Professional Green
 - **Content**: ✅ Updated with accurate details
-- **Last Updated**: 2026-01-03
+- **Last Updated**: 2026-01-08
 
 ## Your Story - Key Messages
 
